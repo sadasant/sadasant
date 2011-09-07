@@ -1,7 +1,7 @@
 /* Title: d0.js
  * Desc: d0 IT 4 FUN
  * By: Daniel R. (sadasant.com)
- * Version: 0.01
+ * Version: 0.02
  * License: http://opensource.org/licenses/mit-license.php
  */
 
@@ -14,7 +14,7 @@ var d0 = (function(){
     "d0.js \n"+
     "d0 IT 4 FUN \n"+
     "Author: Daniel R. (sadasant.com) \n"+
-    "Version: 0.01"
+    "Version: 0.02"
   ;
   /* REFERENCE (or return function) */
   R.ref = function (dad,son,args){
