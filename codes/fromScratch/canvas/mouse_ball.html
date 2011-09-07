@@ -1,0 +1,54 @@
+<!--
+Title: mouse_ball.html
+Desc: A circunference that follows the mouse.
+By: Daniel R. (sadasant.com)
+Version: 0.01
+License: http://opensource.org/licenses/mit-license.php
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Mouse Ball</title>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+      article, aside, figure, footer, header, hgroup, 
+      menu, nav, section { display: block; }
+      canvas {
+        background: #F5F5F5;
+        border:1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width=600px heihgt=600px ></canvas>
+    <p id="log">Logs</p>
+  </body>
+  <script src="../libs/d0.js"></script>
+  <script src="../libs/Can.js"></script>
+  <script>
+    window.onload = function (){
+      Can.setCan();
+      d0.mouse.detectMove("log");
+      d0.bug(Can.can);
+    
+      var c = Can.circle(10,10,10),
+        clear = "rgba(240, 240, 240, 0.3)",
+        M = {x:0, y:0, vx:0, vy:0};
+    
+      d0.bug(c);
+      loop = setInterval(function (){
+    
+        M.x += M.vx;
+        M.y += M.vy;
+        M.vx = (d0.mouse.x - M.x) * 0.1;
+        M.vy = (d0.mouse.y - M.y) * 0.1;
+          
+        c.move(M.x,M.y);
+        Can.draw(c,clear);
+      },33);
+    };
+  </script>
+</html>
