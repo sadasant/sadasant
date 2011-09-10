@@ -21,25 +21,25 @@ I'm [Daniel R][0].
     * {Email}
 
 * [Improvisations][2]
-    I like silence, minimalist music, jazz and noisy metal. I like to hear the nature more than anything. I like to think life is like if you were going to listen only one song in all your existence, there's always a way to make it enjoyable.
+    6 strings have made my day for so long... I like silence, minimalistic/geek/experimental music, jazz and noisy metal. In some way, life is like the only song you're going to listen for all your existence, there's always a way to make it enjoyable.
 
     Records:
     * {Sound Cloud}
 
 * [Writes][3]
-    I've loved writing scraps since almost 10. I like to be a freethinker, to read tech stuff (sometimes novels) and to talk when there's need. I've made speeches, and I'll make more. I hate to lead but sometimes I have to. I promote tolerance and oppeness. I make a lot of mistakes, and I love to learn from them.
+    Writing scraps has been my hobby since I was almost 10. I like to be a freethinker, to read tech stuff (sometimes novels) and to talk when there's need. I've made small speeches, and I'll make more. I hate to lead but sometimes I have to. I promote tolerance and openess. I make a lot of mistakes, and I love to learn from them.
   
     Writes:
     * {Link to writes}
 
 * [Design][4]
-    I've ever loved drawing, it's my favorite weapon, a pen, even if it's ballpoint, digital or just analog, with it I can break my own logic, my own nature, to explore other states of minds, other perspectives.
+    A pen (or the brush tool) is my favorite weapon, with it I can break my own logic, my own nature, to explore other states of mind, other perspectives.
     
     Art:
     * {DArt gallery}
 
 * [Codes][5]
-    I believe programming is magic, you can bring life to anything, or find solutions to even the smallest problems by just writing some lines, it's amazing.
+    <a href='' title='Hacking, programming'>Coding</a> is wizardry, you can bring life or death to anything, find solutions to even the smallest problems by just writing some lines, share your creations without fear of scarce, it's amazing.
     
     FOSS:
     * {Github}
