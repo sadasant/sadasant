@@ -12,7 +12,7 @@ I'm [Daniel R][0].
 [Creative Commons]
 
 * [About me][1]
-    I have 20 years old. I enjoing being an autodidact. I like humanity and science. I believe hatred grows as communications crumble. I love how everything is uncertain. I live at Venezuela, but I enjoy traveling. I work for my own and do IT for fun. I like to dive minds, solitude, partnership and projects.
+    I have 20 years old. I enjoy being an autodidact. I like humanity and science. I believe hatred grows as communications crumble. I love how everything is uncertain. I live at Venezuela, but I enjoy traveling. I work for my own and do IT for fun. I like to dive minds, solitude, partnership and projects.
   
     You can contact me trough this forms:
     * {twitter}
