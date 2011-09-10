@@ -1,0 +1,50 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+body {
+  background:#070707;
+  color:#ddd;
+  font-family:"Days One",Arial Black, sans-serif;
+  overflow:hidden;
+}
+a:link { color:#fff; text-decoration:none; }
+a:hover {
+  text-shadow: 0 0 5px  #fff, 0 0 10px #fff,
+               0 0 15px #ddd, 0 0 20px #ddd,
+               0 0 30px #aaa, 0 0 40px #aaa,
+               0 0 50px #777, 0 0 77px #777;
+}
+a:visited { color:#fff; }
+header,menu,#content,footer{
+  padding-left:30%;
+}
+#skull {
+  background:transparent url(http://sadasant.com/tweet/img/tweetskull.png) no-repeat;
+  width:77px;height:77px;
+  position:absolute;
+  margin-left:-96px;
+  margin-top:-9px;
+}
+header {
+  padding-top:70px;
+  font-size: 22px;
+}
+header, menu {
+  text-shadow: 0px 1px 0px #444, 0px 2px 0px #333;
+}
+header h1 {
+  color: #ddd;
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-shadow: 0px 1px 0px #777, 0px 2px 0px #666,
+               0px 1px 1px #777, 0px 1px 1px #666,
+               0px 1px 0px #555, 0px 3px 0px #444,
+               0px 3px 0px #333;
+}
+menu {
+  font-size: 18px;
+  margin-left:0px;
+}
+#content {
+  font-family: sans-serif;
+  width:40%;
+}
