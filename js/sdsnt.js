@@ -1,17 +1,34 @@
-var _json = {
-  about: "I have 20 years old. I enjoy being an autodidact. I like humanity and science. I believe hatred grows as communications crumble. I love how everything is uncertain. I live at Venezuela, but I enjoy traveling. I work for my own and do IT for fun. I like to dive minds, solitude, partnership and projects.",
-  music: "",
-  writes: "",
-  draws: "",
-  foss: ""
-}
+var S = {
+  author: "Daniel R. (sadasant.com)",
+  debug: _.bind(console.debug, console),
 
-$.ajax({
-  type:"POST",
-  url: '/echo/json/',
-  data: { json:JSON.stringify(_json) },
-  success: function(json) {
-    $("#content").html("<p>"+json["about"]+"</p></br>");
-  }
-});
+  /* PAGE OBJECT */
+  Page: Backbone.Model.extend({
+    initialize: function(args) {
+      S.debug("Started page: "+args.name);
+    },
+    defaults: {
+      name: "ERROR",
+      data: "Nothing here, move away"
+    }
+  }),
+
+  /* MAIN PAGES */
+  Pages: Backbone.Collection.extend({
+    model: this.page,
+    url: 'http://jsbin.com/eyiyus',
+    find: function(name){
+      return this.filter(function(game) {  
+        return game.get('name') == name;  
+      });
+    }
+  })
+};
+
+//var testpage = new S.Page({name: "about",data: _json.about});
+//S.debug(testpage.get('data'));
+
+var testPages = new S.Pages();
+testPages.fetch();
+S.debug(testPages);
 
