@@ -12,7 +12,7 @@ I'm [Daniel R][0].
 [Creative Commons]
 
 * [About me][1]
-    I have {age} years old. I like to be an autodidact. I like humanity. I believe heatred grows as comunications crumble. I love how everything is uncertain. I live at {country}, but I enjoy traveling. I work coding for {work}. I do IT for fun. I've been down and up, like a sinusoidal graph. I love waves, rhymes and to tap them with my hands. I like details and projects.
+    I have 20 years old. I enjoing being an autodidact. I like humanity and science. I believe hatred grows as communications crumble. I love how everything is uncertain. I live at Venezuela, but I enjoy traveling. I work for my own and do IT for fun. I like to dive minds, solitude, partnership and projects.
   
     You can contact me trough this forms:
     * {twitter}
