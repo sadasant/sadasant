@@ -22,7 +22,7 @@ a {
   cursor:pointer;
   cursor:hand;
 }
-a:link {
+a:link,a:visited {
   color:#fff;
   text-decoration:none;
   font-weight:bold;
@@ -34,10 +34,6 @@ a:hover {
     0 0 15px #ddd, 0 0 20px #ddd,
     0 0 30px #aaa, 0 0 40px #aaa,
     0 0 50px #777, 0 0 77px #777;
-}
-a:visited {
-  color:#fff;
-  text-decoration:none;
 }
 header,menu,#content,footer{
   padding-left:30%;
