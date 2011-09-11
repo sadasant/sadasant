@@ -35,7 +35,10 @@ a:hover {
     0 0 30px #aaa, 0 0 40px #aaa,
     0 0 50px #777, 0 0 77px #777;
 }
-a:visited { color:#fff; }
+a:visited {
+  color:#fff;
+  text-decoration:none;
+}
 header,menu,#content,footer{
   padding-left:30%;
 }

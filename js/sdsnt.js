@@ -54,7 +54,7 @@ $(function(){
             html += "<ul>";
             for (var i in data.links){
               var di = data.links[i];
-              var link = (i.match(/http:\/\//g))? i : "#/"+page+"/"+i;
+              var link = (i.match(/https*:\/\//g))? i : "#/"+page+"/"+i;
               if (di.title) html += "<li><a href='"+link+"' title='"+di.title+"'>"+di.list+"</a></li>";
               else html += "<li>"+di.list+"</li>";
             }
@@ -112,7 +112,7 @@ $(function(){
     function start(){
       $.ajax({
         type:"GET",
-        url: 'http://sadasant.com/json/sdsnt.json',
+        //url: 'http://sadasant.com/json/sdsnt.json',
         url: 'http://jsbin.com/eyiyus/35',
         success: function (json){
           json = $.parseJSON(json);
