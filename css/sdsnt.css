@@ -4,10 +4,19 @@ body {
     background:#070707;
     color:#ddd;
     font-family:"Days One",Arial Black, sans-serif;
-    overflow:hidden;
+    overflow-x:hidden;
 }
-a:link { color:#fff; text-decoration:none; }
+a {
+  cursor:pointer;
+  cursor:hand;
+}
+a:link {
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+}
 a:hover {
+  color:#000 !important;
   text-shadow:
     0 0 5px  #fff, 0 0 10px #fff,
     0 0 15px #ddd, 0 0 20px #ddd,
@@ -17,6 +26,9 @@ a:hover {
 a:visited { color:#fff; }
 header,menu,#content,footer{
   padding-left:30%;
+}
+a.active {
+  color:#999;
 }
 #skull {
   background:transparent url(http://sadasant.com/tweet/img/tweetskull.png) no-repeat;
@@ -49,4 +61,17 @@ menu {
 #content {
   font-family: sans-serif;
   width:40%;
+}
+#content li {
+  margin-left:-5px;
+  margin-bottom:7px;
+}
+#content img {
+  width:50px;
+  margin:5px;
+  cursor:pointer;
+  cursor:hand;
+}
+footer {
+  font:11px sans-serif;
 }
