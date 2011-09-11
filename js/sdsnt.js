@@ -1,3 +1,8 @@
+/* sdsnt.js
+ * By Daniel R. (sadasant.com)
+ * License: http://opensource.org/licenses/mit-license.php
+ */
+
 $(function(){
   var S = (function(){
     var author = "Daniel R. (sadasant.com)";
@@ -41,6 +46,7 @@ $(function(){
             $("menu").html(title+". <a href='#/"+parent+"'>Go back</a>.");
           }
           var html = "<p>"+data.content+"</p>";
+          if (data.comments) html += "<small>"+data.comments+"</small></br></br>";
           if (data.linksTitle) {
             html += "<b>"+data.linksTitle+"</b>";
           }
@@ -106,7 +112,7 @@ $(function(){
     function start(){
       $.ajax({
         type:"GET",
-        url: 'http://jsbin.com/eyiyus/30',
+        url: 'http://jsbin.com/eyiyus/31',
         success: function (json){
           json = $.parseJSON(json);
           for (var i in json) {
