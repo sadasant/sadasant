@@ -1,7 +1,5 @@
 # My website.
 
-I'll put more stuff here soon. :)
+A release is done, but I wont document it yet...
 
-Please ignore the current contents.
-
-The latest result can be seen here: <http://fiddle.jshell.net/sadasant/TFkjq/4/show/light/>
+You can go to http://sadasant.com/ if you want to see how the things are going.

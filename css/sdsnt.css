@@ -10,6 +10,14 @@ body {
     font-family:"Days One",Arial Black, sans-serif;
     overflow-x:hidden;
 }
+::selection {
+  background: #fff;
+  color:#000;
+}
+::-moz-selection {
+  background: #fff;
+  color:#000;
+}
 a {
   cursor:pointer;
   cursor:hand;

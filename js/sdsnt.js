@@ -9,9 +9,9 @@ $(function(){
   
     /* BACKBONES */
     var Page = Backbone.Model.extend({
-      initialize: function(args) {
-        S.debug("Started page: "+args.name);
-      },
+      /*initialize: function(args) {
+        //S.debug("Started page: "+args.name);
+      },*/
       defaults: {
         name: "ERROR",
         data: "Nothing here."
@@ -33,7 +33,7 @@ $(function(){
       },
       render: function(page,data,title,parent){
         $(this.el).fadeOut(140,function(){
-          S.debug(page);
+          //S.debug(page);
           $("a").removeClass("active");
           if (S.menu !== null) {
             $("menu").html(S.menu);
@@ -112,7 +112,8 @@ $(function(){
     function start(){
       $.ajax({
         type:"GET",
-        url: 'http://jsbin.com/eyiyus/31',
+        url: 'http://sadasant.com/json/sdsnt.json',
+        url: 'http://jsbin.com/eyiyus/35',
         success: function (json){
           json = $.parseJSON(json);
           for (var i in json) {
@@ -135,11 +136,5 @@ $(function(){
   })();
   
   S.start();
-  //S.Pages.add({ name:"about", data:"lol" });
-  //var pageData = S.Pages.getData("about");
-  //S.debug(pageData);
-  //S.debug(page.prototype.get("data"));
 
 });
-
-
