@@ -112,10 +112,10 @@ $(function(){
     function start(){
       $.ajax({
         type:"GET",
-        //url: 'http://sadasant.com/json/sdsnt.json',
-        url: 'http://jsbin.com/eyiyus/35',
+        url: 'http://sadasant.com/json/sdsnt.json',
+        //url: 'http://jsbin.com/eyiyus/38',
         success: function (json){
-          json = $.parseJSON(json);
+          //json = $.parseJSON(json);
           for (var i in json) {
             S.Pages.add({ name:i, data:json[i] });
           }
@@ -126,7 +126,7 @@ $(function(){
     }
 
     return {
-      debug: _.bind(console.debug, console),
+      //debug: _.bind(console.debug, console),
       Pages: new Pages(),
       Content: new Content({ el: $("#content") }),
       Router: null, //later
