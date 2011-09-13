@@ -112,10 +112,10 @@ $(function(){
     function start(){
       $.ajax({
         type:"GET",
-        url: 'http://sadasant.com/json/sdsnt.json',
-        //url: 'http://jsbin.com/eyiyus/38',
+        //url: 'http://sadasant.com/json/sdsnt.json',
+        url: 'http://jsbin.com/eyiyus/38',
         success: function (json){
-          //json = $.parseJSON(json);
+          json = $.parseJSON(json);
           for (var i in json) {
             S.Pages.add({ name:i, data:json[i] });
           }
