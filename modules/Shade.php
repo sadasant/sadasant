@@ -30,6 +30,4 @@ class Shade {
 
 }
 
-$Shade = new Shade();
-
 ?>

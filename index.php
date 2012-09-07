@@ -6,6 +6,7 @@ session_start();
 
 // Including the Shade MVC.
 include('modules/Shade.php');
+$Shade = new Shade();
 
 // Function routes.
 include('modules/routes.php');
