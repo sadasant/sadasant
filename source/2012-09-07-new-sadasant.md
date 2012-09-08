@@ -47,7 +47,8 @@ weekly, to sleep less and to do more, and so on.
 
 You have to dress accordingly to the environment,
 I mean, your impression is a way of expression,
-what are you expecting to say?
+what are you expecting to say?  
+(Says the guy that almost always wears black).
 
 I needed a site to express my self constantly and fluently.
 
@@ -56,16 +57,16 @@ and it was dev-love at the first view-source. I even thought
 I could do something similar, more ajaxy,
 more how I liked things to be.
 
-So here it is, after some nights of work, I did this blog.
+After some nights of work, I did this blog.
 
 # Features
 
--   A single stream of posts.
+-   A single infinite stream of posts.
 -   Responsive design.
 -   Simple mobile adaptability.
--   No-reload bookmarkable and SEO friendly browsing.
--   A search by tags (at the left).
--   Source files are written in Markdown (yes, this is a feature <3).
+-   No-reload, bookmarkable and SEO friendly browsing.
+-   Most used tags (at the left) and tags search.
+-   Source files are written in JSON and Markdown.
 -   No database needed.
 
 # PHP
@@ -75,13 +76,13 @@ about JS and Node, it might appear odd to some of my friends
 or knowns that I decided making this website with _PHP_.
 
 Well, the main reason is that I want to keep a hook with my
-[parents](http://tecnosoluciones.com/)' hosting and cloud platform.
-It is very known that PHP is highly used among the population of
+[parents](http://tecnosoluciones.com/)' hosting/cloud platform.
+It is well known that PHP is highly used among the population of
 programmers around the world, but I believe Venezuela is a special case,
 since, for example, 3 of our fellows are working at the
 [core of CakePHP](http://www.cakedc.com/team).
 
-But, anyway, the good thing is that PHP is indeed easy to use,
+But, anyway, the good thing is that PHP is easy to use,
 and it's specially good for processing hypertext (indeed),
 which is great.
 

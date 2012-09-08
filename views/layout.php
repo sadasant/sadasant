@@ -6,6 +6,10 @@
 // c) 2012
 -->
 
+<?
+$minified = $_GET['development'] ? '' : '.min';
+?>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,7 +18,7 @@
   <link rel="icon" type="image/x-icon" href="/images/sadasant.ico" />
   <link rel="stylesheet" href="/css/yui-reset-min.css" />
   <link rel="stylesheet" href="/css/style.css" />
-  <script type="text/javascript" src="/js/Shade.min.js"></script>
+  <script type="text/javascript" src="/js/Shade<?=$minified?>.js"></script>
 </head>
 <body>
 
@@ -25,7 +29,7 @@
   </div>
 
   <div id="left">
-    <a href="/"><img id="logo" src="/images/whiteskull.png" alt="" /></a>
+    <a href="/<?=$_GET['development']?'?development=1':''?>"><img id="logo" src="/images/whiteskull.png" alt="" /></a>
     <ul id="filter">
       <li>
         <input type="text" placeholder="Filter..." autocomplete="off"/>
@@ -57,5 +61,5 @@
   </div>
 
 </body>
-<script type="text/javascript" src="/js/site.min.js"></script>
+<script type="text/javascript" src="/js/site<?=$minified?>.js"></script>
 </html>
