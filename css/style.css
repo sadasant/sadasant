@@ -217,6 +217,9 @@ strong {
 #trunk .article .content p {
 ; margin : 16px 0
 }
+#trunk .article .content a:hover {
+; color : white
+}
 #trunk .article .content code {
 ; font-size     : 13px
 ; color         : #888

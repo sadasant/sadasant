@@ -63,7 +63,7 @@ segmento de profesionales y emprendedores inesperado y muy bienvenido.
 Fue difícil, empezando por nuestra inexperiencia, como líderes y como estudiantes.
 Las asignaciones fueron cumplidas a medias, sin embargo la cantidad de documentos
 escritos y respaldados superó a todos los documentos guardados del equipo durante
-todos sus años de existencia, sin embargo, se hizo claro la necesidad
+todos sus años de existencia, a pesar de eso, se hizo clara la necesidad
 de reducir el equipo, para poder concentrar la comunicación y la motivación
 de todos, por lo que se diseñó un sistema de entrevistas para escoger
 a los mejores del equipo según su interés, experiencia y participación

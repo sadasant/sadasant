@@ -5,7 +5,7 @@
   , "javascript"
   , "mongodb"
   , "english"
-  , "interface"
+  , "css"
   ]
 , "title" : "Geeklist Links and Bookmarklet"
 }

@@ -2,6 +2,7 @@
     "dreams"
   , "surrealisms"
   , "english"
+  , "horror"
   ]
 , "title" : "Jar Of Dreams"
 }

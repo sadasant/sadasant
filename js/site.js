@@ -11,7 +11,7 @@
     , $input   = Shade.find('input', $first)
     , $trunk   = Shade.find('#trunk')
     , all_tags = {}
-    , active_tags
+    , active_tags = []
     , started
     , filtering
     , resetting
@@ -19,6 +19,7 @@
     , last_scroll
     , rock_bottom
     , current_page = 0
+    , class_active = 'active'
 
 
   $items.map(function(e) {
@@ -45,7 +46,7 @@
       , data
       , index = 0
     for (; $item = $items[index++] ;) {
-      if (Shade.hasClass('active', $item)) {
+      if (Shade.hasClass(class_active, $item)) {
         active_tags[active_tags.length] = $item.firstChild.innerHTML
       }
     }
@@ -66,6 +67,9 @@
 
 
   function startLoop() {
+    if (query === $input.value) {
+      return
+    }
     query = $input.value
     query = query.replace(/[^\w ]/g, '').toLowerCase()
     $input.value = query
@@ -76,18 +80,20 @@
       if (started) {
         // Remove unactive tags
         for (tag in all_tags) {
-          if (!Shade.hasClass('active', all_tags[tag])) {
+          if (!Shade.hasClass(class_active, all_tags[tag])) {
             $filter.removeChild(all_tags[tag])
             ;delete all_tags[tag]
           }
         }
       }
-      return
-    }
+      if (query) {
+        return
+      }
+    } else
     if (!started) {
       started = true
       for (; $item = $items[index++] ;) {
-        if (!Shade.hasClass('active', $item)) {
+        if (!Shade.hasClass(class_active, $item)) {
           $filter.removeChild($item)
         } else {
           all_tags[$item.firstChild.innerHTML] = $item
@@ -103,7 +109,8 @@
 
 
   function filterTags(query) {
-    Shade.http('GET', '/?tags=' + query, function(ok, data) {
+    query = query ? '/?tags=' + query : '/json/top_tags.json'
+    Shade.http('GET', query, function(ok, data) {
       var tags
         , tag
         , $tag
@@ -112,7 +119,7 @@
         tags = JSON.parse(data)
         if (tags.length) {
           for (tag in all_tags) {
-            if (!Shade.hasClass('active', all_tags[tag]) && !~tags.indexOf(tag)) {
+            if (!Shade.hasClass(class_active, all_tags[tag]) && !~tags.indexOf(tag)) {
               $filter.removeChild(all_tags[tag])
               ;delete all_tags[tag]
             }
@@ -135,13 +142,12 @@
 
 
   function activateTag() {
-    if (Shade.hasClass('active', this)) {
-      Shade.removeClass('active', this)
+    if (Shade.hasClass(class_active, this)) {
+      Shade.removeClass(class_active, this)
     } else {
-      Shade.addClass('active', this)
+      Shade.addClass(class_active, this)
     }
-    $trunk.style.opacity = 0.3
-    setTimeout(resetPosts, 1000)
+    resetPosts()
   }
 
 
@@ -155,7 +161,7 @@
       return
     }
     resetting = true
-    var $active = $filter.getElementsByClassName('active')
+    var $active = $filter.getElementsByClassName(class_active)
       , $item
       , index = 0
       , tags  = ''
@@ -164,6 +170,7 @@
       resetting = false
       return
     }
+    $trunk.style.opacity = 0.3
     for (; $item = $active[index++] ;) {
       tags += $item.firstChild.innerHTML + ' '
     }
@@ -207,13 +214,41 @@
       for (; $item = $items[index++] ;) {
         tag = $item.firstChild.innerHTML
         if (~active_tags.indexOf(tag)) {
-          Shade.addClass('active', $item)
+          if (!Shade.hasClass(class_active, $item)) {
+            Shade.addClass(class_active, $item)
+          }
         } else {
-          Shade.removeClass('active', $item)
+          if (Shade.hasClass(class_active, $item)) {
+            Shade.removeClass(class_active, $item)
+          }
+        }
+      }
+      orderActives()
+    }
+    appendPosts(state.posts, state.className)
+  }
+
+
+  function orderActives() {
+    var $actives      = []
+      , $first_parent = $first.parentNode
+      , $first_next
+      , $item = $first
+      , index = 0
+    while ($item = $item.nextSibling) {
+      if ($item.tagName === 'LI') {
+        if (Shade.hasClass(class_active, $item)) {
+          $actives[$actives.length] = $item
+        } else {
+          if (!$first_next) {
+            $first_next = $item
+          }
         }
       }
     }
-    appendPosts(state.posts, state.className)
+    for (; $item = $actives[index++] ;) {
+      $first_parent.insertBefore($item, $first_next)
+    }
   }
 
 
