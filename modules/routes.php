@@ -186,9 +186,9 @@ function postsPerDate($Shade, $req) {
     )));
   }
   $Shade->view('views/layout', array(
-    'view'        => 'views/headlines'
-  , 'headlines'   => $posts
-  , 'tags'        => json_decode(file_get_contents('json/top_tags.json'))
+    'view'      => 'views/headlines'
+  , 'headlines' => $posts
+  , 'tags'      => json_decode(file_get_contents('json/top_tags.json'))
   ));
 }
 

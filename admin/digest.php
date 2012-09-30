@@ -161,32 +161,89 @@ rsort($glob);
 echo "<br> (Remembering I've had at least ".count($glob)." foods 'til date)";
 echo "<br>";
 
+$RSS = '<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  >
+<channel>
+  <title>sadasant</title>
+  <atom:link href="http://sadasant.com/feed/" rel="self" type="application/rss+xml" />
+  <link>http://sadasant.com/</link>
+  <description>Open Sorcerer</description>
+  <lastBuildDate>'. date("r") .'</lastBuildDate>
+  <language>es-VE</language>
+  <sy:updatePeriod>weekly</sy:updatePeriod>
+  <sy:updateFrecuency>1</sy:updateFrecuency>';
+
 $total         = array();
 $featured_json = array();
 $tags          = array();
+$maxRSS        = 5;
 
 foreach ($glob as $k => $filename) {
 
   // Extracting the values
   $newname  = strtolower(str_replace('.md', '.html', substr($filename, 10)));
+  $date     = explode('-', $newname);
   $content  = explode('--- ', file_get_contents($filename));
   $raw_data = array_shift($content);
   $data     = json_decode($raw_data);
+  $parts    = array();
+  foreach ($content as $kk => $content_value) {
+    $content_value = preg_split("/ ---\n/", $content_value);
+    $parts[$content_value[0]] = Markdown($content_value[1]);
+  }
 
   // Adding the name to the total array
   array_push($total, $newname);
 
   echo "<br> Reading: $newname";
 
+  // RSS
+
+  if ($maxRSS) {
+    var_dump($date);
+    $RSS .= '
+    <item>
+      <title>'. $data->title .'</title>
+      <link>http://sadasant.com/'. $urlname .'</link>
+      <pubDate>'. date("r", strtotime($date[0].'-'.$date[1].'-'.$date[2])) .'</pubDate>
+      <dc:creator>Daniel Rodríguez</dc:creator>
+    ';
+  }
+
   // Saving the tags count
   foreach ($data->tags as $kk => $tag) {
+    if ($maxRSS) {
+      $RSS .= '  <category><![CDATA['.$tag.']]></category>';
+    }
     if (!$tags[$tag]) {
       $tags[$tag] = array();
     }
     array_push($tags[$tag], $newname);
   }
 
+  if ($maxRSS) {
+    echo $maxRSS;
+    $RSS .= '
+      <content:encoded><![CDATA['. $parts['content'] .']]></content:encoded>
+    </item>
+    ';
+    $maxRSS--;
+  }
 }
+
+$RSS .= '
+</channel>
+</rss>
+';
+
+// Writing the RSS feed
+writeFile('../feed.xml', $RSS);
 
 echo "<br>";
 echo "<br>";

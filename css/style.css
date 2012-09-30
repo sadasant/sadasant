@@ -64,10 +64,12 @@ hr {
 ; border : 0
 }
 #left #logo {
-; background : black
-; padding    : 30px 50px;
-; top        : 0
-; cursor     : pointer
+; background    : black
+; padding       : 30px 50px;
+; top           : 0
+; cursor        : pointer
+; width         : 77px
+; height        : 77px
 }
 #filter {
 ; width      : 177px
@@ -122,7 +124,7 @@ hr {
 ; background : #222
 }
 #filter li:first-child {
-; margin   : -6px 0 29px 0
+; margin   : -7px 0 29px 0
 ; border   : 0
 ; overflow : visible
 }
@@ -314,6 +316,7 @@ hr {
   }
   #left #logo {
   ; width   : 50px
+  ; height  : 50px
   ; padding : 20px 15px
   }
   #left #filter {
