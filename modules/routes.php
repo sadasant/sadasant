@@ -192,6 +192,11 @@ function postsPerDate($Shade, $req) {
   ));
 }
 
+// RSS Feed
+function feed() {
+  echo file_get_contents('feed.xml');
+}
+
 // Forbidden
 function forbidden($Shade) {
   $Shade->view('views/404');

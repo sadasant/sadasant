@@ -49,7 +49,7 @@ $months = array(
 // Looking for food
 // ----------------
 
-$glob  = glob('../feed/*');
+$glob  = glob('../raw/*');
 
 // No food.
 if (!$glob) {
@@ -141,7 +141,7 @@ foreach ($glob as $k => $filename) {
   writeFile('../posts/' . $newname, $content);
 
   // Writing the source file
-  writeFile(str_replace('/feed/', '/source/', $filename), $source);
+  writeFile(str_replace('/raw/', '/source/', $filename), $source);
 
   // Removing the food
   unlink($filename);
