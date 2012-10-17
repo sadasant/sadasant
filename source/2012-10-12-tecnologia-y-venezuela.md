@@ -27,7 +27,7 @@ regalamos nuestro capital, e incluso nuestro personal más capacitado a un
 mercado que difícilmente nos beneficia.
 
 No es que seamos flojos, ¡Todos trabajamos! Pero hicimos cuanto pudimos
-por evitar tener que estudiar matemática, química, física y todas esas
+para evitar tener que estudiar matemática, química, física y todas esas
 ciencia duras que nos hicieron pasar trabajo en el liceo.
 
 Esas tácticas evasivas desembocan en una cultura con pocos recursos de abstracción,

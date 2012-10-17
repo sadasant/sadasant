@@ -193,6 +193,9 @@ function postsPerDate($Shade, $req) {
 }
 
 // RSS Feed
+function rss() {
+  echo file_get_contents('feed.xml');
+}
 function feed() {
   echo file_get_contents('feed.xml');
 }
