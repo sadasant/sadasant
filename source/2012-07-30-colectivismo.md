@@ -1,6 +1,6 @@
 { "tags" : [
     "thoughts"
-  , "economics"
+  , "economy"
   , "society"
   , "spanish"
   ]

@@ -26,7 +26,7 @@ $minified = $_GET['development'] ? '' : '.min';
   <div id="main">
     <h1>sadasant</h1>
     <em>Daniel Rodríguez</em>
-    <i>Open Sorcerer</i>
+    <i>Conjeturas</i>
   </div>
 
   <div id="left">

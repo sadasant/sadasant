@@ -71,7 +71,7 @@ foreach ($glob as $k => $filename) {
   echo "<br> (Eating: $filename)";
 
   // Extracting the values
-  $newname  = strtolower(str_replace('.md', '.html', substr($filename, 8)));
+  $newname  = strtolower(str_replace('.md', '.html', substr($filename, 7)));
   $date     = explode('-', $newname);
   $source   = file_get_contents($filename);
   $content  = explode('--- ', $source);
@@ -173,7 +173,7 @@ $RSS = '<?xml version="1.0" encoding="UTF-8"?>
   <title>sadasant</title>
   <atom:link href="http://sadasant.com/feed/" rel="self" type="application/rss+xml" />
   <link>http://sadasant.com/</link>
-  <description>Open Sorcerer</description>
+  <description>Conjeturas</description>
   <lastBuildDate>'. date("r") .'</lastBuildDate>
   <language>es-VE</language>
   <sy:updatePeriod>weekly</sy:updatePeriod>
