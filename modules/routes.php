@@ -193,11 +193,14 @@ function postsPerDate($Shade, $req) {
 }
 
 // RSS Feed
-function rss() {
-  echo file_get_contents('feed.xml');
+function atom($Shade) {
+  $Shade->view('views/atom');
 }
-function feed() {
-  echo file_get_contents('feed.xml');
+function rss($Shade) {
+  atom($Shade);
+}
+function feed($Shade) {
+  atom($Shade);
 }
 
 // Forbidden

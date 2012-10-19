@@ -16,7 +16,7 @@ $minified = $_GET['development'] ? '' : '.min';
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<title>sadasant.com</title>
 	<link rel="icon" type="image/x-icon" href="/images/sadasant.ico" />
-	<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="sadasant's RSS" />
+	<link rel="alternate" type="application/rss+xml" href="/rss/" title="sadasant's RSS" />
 	<link rel="stylesheet" href="/css/yui-reset-min.css" />
 	<link rel="stylesheet" href="/css/style.css" />
 	<script type="text/javascript" src="/js/Shade<?=$minified?>.js"></script>
