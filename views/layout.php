@@ -55,6 +55,7 @@ if ($p['tags']) {
 
 	<ul id="social">
 		<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
+		<li><a href="http://sadasant.pong.jit.su/" target="_blank">Pong</a></li>
 		<li><a href="http://gkl.st/sadasant" target="_blank">Geeklist</a></li>
 		<li><a href="https://github.com/sadasant" target="_blank">Github</a></li>
 		<li><a href="https://plus.google.com/111462690043808716220/" target="_blank">G+</a></li>
