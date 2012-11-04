@@ -203,6 +203,24 @@ function feed($Shade) {
   atom($Shade);
 }
 
+// Projects
+function projects($Shade) {
+  $Shade->view('views/layout', array(
+    'view'      => 'views/post'
+  , 'post'      => file_get_contents('projects.html')
+  , 'tags'      => json_decode(file_get_contents('json/top_tags.json'))
+  ));
+}
+
+// Hobbies
+function hobbies($Shade) {
+  $Shade->view('views/layout', array(
+    'view'      => 'views/post'
+  , 'post'      => file_get_contents('hobbies.html')
+  , 'tags'      => json_decode(file_get_contents('json/top_tags.json'))
+  ));
+}
+
 // Forbidden
 function forbidden($Shade) {
   $Shade->view('views/404');

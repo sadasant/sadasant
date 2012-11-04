@@ -53,17 +53,15 @@ if ($p['tags']) {
 		</ul>
 	</div>
 
-	<ul id="social">
+	<ul id="links">
 		<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
-		<li><a href="http://sadasant.pong.jit.su/" target="_blank">Pong</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/hobbies">Hobbies</a></li>
 		<li><a href="http://gkl.st/sadasant" target="_blank">Geeklist</a></li>
 		<li><a href="https://github.com/sadasant" target="_blank">Github</a></li>
-		<li><a href="https://plus.google.com/111462690043808716220/" target="_blank">G+</a></li>
 		<li><a href="https://twitter.com/sadasant" target="_blank">Twitter</a></li>
+		<li><a href="https://plus.google.com/111462690043808716220/" target="_blank">G+</a></li>
 		<li><a href="https://facebook.com/sadasant" target="_blank">Facebook</a></li>
-		<li><a href="https://sadasant.deviantart.com/" target="_blank">DeviantArt</a></li>
-		<li><a href="https://reverbnation.com/sadasant" target="_blank">Guitar</a></li>
-		<li><a href="https://soundcloud.com/sadasant" target="_blank">8bit Music</a></li>
 	</ul>
 
 	<div id="trunk">

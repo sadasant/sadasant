@@ -143,22 +143,22 @@ hr {
 }
 
 
-#social {
+#links {
 ; margin  : 143px 0 0 177px
 ; padding : 0 0 6px 4px
 ; border-bottom : 1px solid #181818
 }
-#social li {
+#links li {
 ; display : inline-block
 ; margin  : 0
 }
-#social li a {
+#links li a {
 ; padding       : 0 10px
 ; color         : #555
 ; border-bottom : 0
 ; margin        : 0 0 0 -4px
 }
-#social li a:hover {
+#links li a:hover {
 ; color         : white
 ; border-bottom : 0
 }
@@ -350,11 +350,11 @@ hr {
   #left #filter input {
   ; width : 61px
   }
-  #social {
+  #links {
   ; margin-left : 80px
   ; margin-top  : 94px
   }
-  #social li a {
+  #links li a {
   ; font-size : 13px
   }
   #trunk {
