@@ -1,9 +1,10 @@
 { "tags" : [
-    "spanish"
+    "analysis"
+  , "economy"
   , "society"
+  , "spanish"
   , "technology"
   , "thoughts"
-  , "economy"
   ]
 , "title" : "Tecnología y Venezuela"
 }
