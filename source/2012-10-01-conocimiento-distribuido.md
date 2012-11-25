@@ -1,13 +1,15 @@
-{ "tags" : [
-    "spanish"
-  , "society"
-  , "technology"
-  , "thoughts"
-  ]
-, "title" : "Conocimiento Distribuido"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "spanish"
+      , "society"
+      , "technology"
+      , "thoughts"
+      ]
+    , "title" : "Conocimiento Distribuido"
+    }
+
+--- 
 
 Nuestro proceso de aprendizaje es tan ineficiente para toda la información disponible...
 Aprendizaje tiene relación con la asociación de valores,

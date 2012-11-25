@@ -1,13 +1,15 @@
-{ "tags" : [
-    "thoughts"
-  , "economy"
-  , "society"
-  , "spanish"
-  ]
-, "title" : "Economía del Miedo"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "thoughts"
+      , "economy"
+      , "society"
+      , "spanish"
+      ]
+    , "title" : "Economía del Miedo"
+    }
+
+--- 
 
 
 Ayer, Nathalie me contaba sobre

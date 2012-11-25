@@ -1,15 +1,17 @@
-{ "tags" : [
-    "sadasant"
-  , "programming"
-  , "javascript"
-  , "php"
-  , "english"
-  , "opensource"
-  ]
-, "title" : "New Sadasant"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "sadasant"
+      , "programming"
+      , "javascript"
+      , "php"
+      , "english"
+      , "opensource"
+      ]
+    , "title" : "New Sadasant"
+    }
+
+--- 
 
 Hello!
 

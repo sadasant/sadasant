@@ -1,16 +1,18 @@
-{ "tags" : [
-    "photos"
-  , "love"
-  , "spanish"
-  ]
-, "title" : "Nathalie y yo"
-}
+--- 
 
---- image_title ---
+    { "tags" : [
+        "photos"
+      , "love"
+      , "spanish"
+      ]
+    , "title" : "Nathalie y yo"
+    }
+
+--- 
 
 ![Nathalie y yo](/images/posts/2012-08-18-Nathalie-and-me.jpg)
 
---- content ---
+--- 
 
 Luego de unos días en la ciudad de los crepúsculos,
 en una plaza callada y tranquila en el Este,

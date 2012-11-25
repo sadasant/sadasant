@@ -1,13 +1,15 @@
-{ "tags" : [
-    "university"
-  , "technology"
-  , "events"
-  , "spanish"
-  ]
-, "title" : "Final del trimestre Enero - Abril en CDSTIC"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "university"
+      , "technology"
+      , "events"
+      , "spanish"
+      ]
+    , "title" : "Final del trimestre Enero - Abril en CDSTIC"
+    }
+
+--- 
 
 [jobliz]:     https://twitter.com/jobliz     "José Reyna en Twitter"
 [unitecve]:   https://twitter.com/unitecve   "UNITEC en Twitter"

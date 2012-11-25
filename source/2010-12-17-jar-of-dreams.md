@@ -1,13 +1,15 @@
-{ "tags" : [
-    "dreams"
-  , "surrealisms"
-  , "english"
-  , "horror"
-  ]
-, "title" : "Jar Of Dreams"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "dreams"
+      , "surrealisms"
+      , "english"
+      , "horror"
+      ]
+    , "title" : "Jar Of Dreams"
+    }
+
+--- 
 
 Unstable Comprilation of Damned Dreams.
 

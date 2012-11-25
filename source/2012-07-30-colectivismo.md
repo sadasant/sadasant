@@ -1,13 +1,15 @@
-{ "tags" : [
-    "thoughts"
-  , "economy"
-  , "society"
-  , "spanish"
-  ]
-, "title" : "Sobre el Colectivismo"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "thoughts"
+      , "economy"
+      , "society"
+      , "spanish"
+      ]
+    , "title" : "Sobre el Colectivismo"
+    }
+
+--- 
 
 A continuación, algunas ideas sobre el colectivismo, lanzadas _casi_ al azar:
 
@@ -56,7 +58,7 @@ aunque de manera menos perceptible, mediante negociaciones de poder entre
 empresa y estado.
 
 Un sistema que esté siendo afectado por la información de otro puede
-ser susceptible a la homogeneiza la información, tanto así como
+ser susceptible a la homogeneización la información, tanto así como
 dos sustancias mezcladas pueden concluir en una solución distinta.
 
 ¿Cómo nos afecta esto?
@@ -143,8 +145,8 @@ de atender recíprocamente todas las necesidades existentes.
 Pudiendo llevar este tema a más vertientes, lo que quiero decir
 es que, la mejor manera de llegar al colectivismo es mediante el individualismo.
 
-> ["El individuo reconoce que mejorando su entorno se mejora a sí mismo"](https://mobile.twitter.com/jobliz/status/229036890773397504)
-[&mdash; @jobliz](https://mobile.twitter.com/jobliz)
+> ["El individuo reconoce que mejorando su entorno se mejora a sí mismo"](https://mobile.twitter.com/jobliz/status/229036890773397504)  
+[&ndash; @jobliz](https://mobile.twitter.com/jobliz)
 
 Sólo dejando fluir las perspectivas, se puede distribuir mejor la producción de información,
 ya que se obtienen más recursos creativos, y por ende, se puede garantizar

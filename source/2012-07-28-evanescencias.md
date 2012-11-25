@@ -1,12 +1,14 @@
-{ "tags" : [
-    "thoughts"
-  , "poems"
-  , "surrealisms"
-  ]
-, "title" : "Evanescencias"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "thoughts"
+      , "poems"
+      , "surrealisms"
+      ]
+    , "title" : "Evanescencias"
+    }
+
+--- 
 
 A veces me postro ante la realidad misma,  
 y sus ventiscas me abruman.  

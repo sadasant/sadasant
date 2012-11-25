@@ -1,12 +1,14 @@
-{ "tags" : [
-    "thoughts"
-  , "surrealisms"
-  , "spanish"
-  ]
-, "title" : "Irreprimibles"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "thoughts"
+      , "surrealisms"
+      , "spanish"
+      ]
+    , "title" : "Irreprimibles"
+    }
+
+--- 
 
 Durante repetidas ocasiones, en períodos distintos de los últimos años, hablé para algunos pocos atentos sobre un estado mental al cual quise llamar "ruido", aunque más adelante y gracias a sus respuestas consideré llamarlo "estar embotado"; lo describiría como el resultado de tener muchas ideas en mente, pero que estas converjan y colapsen, convulsionen, se inflamen y se vuelvan insoportables. Mil voces discutiendo entre sien y sien. Una bandada de pajaros volando a tu alrededor mientras te gritan con megáfonos. Docenas de perros ladrando(te). Una zona de desenfoque en la vista cuando intentas mirar lejos. Estar a solas y encerrado con el ruido en tus oidos, pero en el día a día, en situaciones normales.
 Trato de expresarme y me ahogo.

@@ -75,12 +75,12 @@ foreach ($glob as $k => $filename) {
   $date     = explode('-', $newname);
   $source   = file_get_contents($filename);
   $content  = explode('--- ', $source);
+  array_shift($content);
   $raw_data = array_shift($content);
   $data     = json_decode($raw_data);
   $parts    = array();
   foreach ($content as $kk => $content_value) {
-    $content_value = preg_split("/ ---\n/", $content_value);
-    $parts[$content_value[0]] = Markdown($content_value[1]);
+    $parts[$kk] = Markdown($content_value);
   }
 
   echo "<br> (As: $newname)";
@@ -97,8 +97,8 @@ foreach ($glob as $k => $filename) {
   $content .= '<div class="title">';
 
   // Image at the title
-  if ($parts['image_title']) {
-    $content .= $parts['image_title'];
+  if (count($parts) > 1) {
+    $content .= array_shift($parts);
   }
 
   // Date
@@ -114,7 +114,7 @@ foreach ($glob as $k => $filename) {
 
   // Opening, writing and closing the content
   $content .= '<div class="content">';
-  $content .= $parts['content'];
+  $content .= $parts[0];
   $content .= '</div>';
   // echo $content;
 
@@ -171,12 +171,12 @@ foreach ($glob as $k => $filename) {
   $newname  = strtolower(str_replace('.md', '.html', substr($filename, 10)));
   $date     = explode('-', $newname);
   $content  = explode('--- ', file_get_contents($filename));
+  array_shift($content);
   $raw_data = array_shift($content);
   $data     = json_decode($raw_data);
   $parts    = array();
   foreach ($content as $kk => $content_value) {
-    $content_value = preg_split("/ ---\n/", $content_value);
-    $parts[$content_value[0]] = Markdown($content_value[1]);
+    $parts[$kk] = Markdown($content_value);
   }
 
   // Adding the name to the total array

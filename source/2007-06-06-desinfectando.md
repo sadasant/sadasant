@@ -1,12 +1,14 @@
-{ "tags" : [
-    "poems"
-  , "horror"
-  , "spanish"
-  ]
-, "title" : "Desinfectando"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "poems"
+      , "horror"
+      , "spanish"
+      ]
+    , "title" : "Desinfectando"
+    }
+
+--- 
 
 Filtrando el gruñido incauto  
 que se derrama sobre las vías,  

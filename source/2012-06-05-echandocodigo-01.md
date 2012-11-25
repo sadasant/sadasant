@@ -1,12 +1,14 @@
-{ "tags" : [
-    "podcast"
-  , "programming"
-  , "spanish"
-  ]
-, "title" : "Primer episodio de EchandoCodigo"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "podcast"
+      , "programming"
+      , "spanish"
+      ]
+    , "title" : "Primer episodio de EchandoCodigo"
+    }
+
+--- 
 
 Meses después de que [Osledy Bazó][uokesita] me incentivara para empezar a grabar
 un podcast de desarrollo de software con ella, anunciamos tanto nuestra primera grabación

@@ -1,15 +1,17 @@
-{ "tags" : [
-    "analysis"
-  , "economy"
-  , "society"
-  , "spanish"
-  , "technology"
-  , "thoughts"
-  ]
-, "title" : "Tecnología y Venezuela"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "analysis"
+      , "economy"
+      , "society"
+      , "spanish"
+      , "technology"
+      , "thoughts"
+      ]
+    , "title" : "Tecnología y Venezuela"
+    }
+
+--- 
 
 Es difícil no criticar a nuestro hermoso país, con todo lo que observamos
 en otras culturas gracias a la tecnología (por cierto, importada),

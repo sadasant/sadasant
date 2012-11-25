@@ -1,16 +1,18 @@
-{ "tags" : [
-    "university"
-  , "technology"
-  , "programming"
-  , "javascript"
-  , "nodejs"
-  , "tutorials"
-  , "spanish"
-  ]
-, "title" : "Experiencia TecnoYucas"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "university"
+      , "technology"
+      , "programming"
+      , "javascript"
+      , "nodejs"
+      , "tutorials"
+      , "spanish"
+      ]
+    , "title" : "Experiencia TecnoYucas"
+    }
+
+--- 
 
 [jobliz]:      https://twitter.com/jobliz     "José Reyna en Twitter"
 [unitecve]:    https://twitter.com/unitecve   "UNITEC en Twitter"

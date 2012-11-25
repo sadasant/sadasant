@@ -1,20 +1,22 @@
-{ "tags" : [
-    "screenshots"
-  , "programming"
-  , "nodejs"
-  , "javascript"
-  , "mongodb"
-  , "english"
-  , "css"
-  ]
-, "title" : "Geeklist Links and Bookmarklet"
-}
+--- 
 
---- image_title ---
+    { "tags" : [
+        "screenshots"
+      , "programming"
+      , "nodejs"
+      , "javascript"
+      , "mongodb"
+      , "english"
+      , "css"
+      ]
+    , "title" : "Geeklist Links and Bookmarklet"
+    }
+
+--- 
 
 ![Geeklist's Bookmarklet](/images/posts/2012-06-04-Geeklist-Bookmarklet.jpg)
 
---- content ---
+--- 
 
 Lasted about 2 months at randoms hours a week making the [Geeklist](http://geekli.st/)'s
 links system and bookmarklet, plus another month at random for polishing,

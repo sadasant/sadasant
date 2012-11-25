@@ -1,15 +1,17 @@
-{ "tags" : [
-    "opensource"
-  , "linux"
-  , "spanish"
-  , "society"
-  , "technology"
-  , "thoughts"
-  ]
-, "title" : "El Open Source y la Comida"
-}
+--- 
 
---- content ---
+    { "tags" : [
+        "opensource"
+      , "linux"
+      , "spanish"
+      , "society"
+      , "technology"
+      , "thoughts"
+      ]
+    , "title" : "El Open Source y la Comida"
+    }
+
+--- 
 
 Cuando vas al super mercado, escoges qué comer, buscas productos naturales,
 aunque cuesten un poco mas caro, jugos, verduras, carnes de calidad,
