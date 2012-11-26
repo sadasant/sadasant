@@ -68,7 +68,7 @@ pero lo que más me incomodó fueron las siguientes líneas:
 
 -   “La educación es una utopía tan mentirosa como el mismo comunismo”,
 -   “El orden no se logra con educación. Se logra con represión. Si lo dudas estudia esos países”.
--   “... para mi la educación no es la solución. La solución es mano dura”.
+-   “... para mi la educación no es la solución. La solución es mano dura”.  
     &ndash; [Mario][Aubourg]
 
 Tuve que decirle que,
@@ -81,7 +81,7 @@ la jerarquía pública la ejercen las armas, estaría errado negociar con normat
 creo que la mejor manera de evitar numerosos caídos sería ofrecer liberar cargos
 a cambio de cooperación y compromiso; pero ahí ya estamos tocando temas que desconozco.
 
-La discusión acabó ahí, pero hubo otros comentarios que me gustaron:
+La discusión acabó ahí, aunque también hubieron otros comentarios que me gustaron:
 
 -   Una cita a Gary Becker: “No importa cuan grande sea la sanción o el castigo,
     sino la probabilidad de que te atrapen con la utilidad que te pueda generar incumplir la ley”.
@@ -91,7 +91,7 @@ La discusión acabó ahí, pero hubo otros comentarios que me gustaron:
     así que tiendo a no cumplir la ley”.
 
 -   “Tiene que ser un buen sistema penitenciario y educación,
-    es un conjunto de soluciones no una sola”.
+    es un conjunto de soluciones no una sola”.  
     &ndash; [Mily][Elzughayar]
 
 ## Cuáles o cuántas causas aumentan el índice de [natalidad](http://youtu.be/5iWrLDfikmQ?t=5m5s)
@@ -101,7 +101,7 @@ La siguiente discusión así extensa fue provocada por una cita de George Box:
 En respuesta recibí algunos comentarios cuyos criterios me parecen acertados:
 
 -   “Los modelos son formas de explicar la realidad, pero no son la realidad.
-    Ese es el error de muchos ingenieros sociales, pretender que la realidad se adapte al modelo”.
+    Ese es el error de muchos ingenieros sociales, pretender que la realidad se adapte al modelo”.  
     &ndash; [Osmel][Brito]
 
 -   “Es que es imposible determinar el pensamiento de toda una sociedad y reducirlo a un modelo,
@@ -110,7 +110,7 @@ En respuesta recibí algunos comentarios cuyos criterios me parecen acertados:
     la manutención de los mismos, y aquellas personas que menos poseen, y gente de bajo nivel de educación,
     tienen hijos de a lote" entonces rozamos en la subjetividad de lo racional con lo irracional.
     Se supone que dado que es difícil la manutención no los tenemos entonces ¿Por qué paren tanto?
-    ¿No piensan? ¿No son racionales? en fin...”
+    ¿No piensan? ¿No son racionales? en fin...”  
     &ndash; [Mily][Elzughayar]
 
 Aprecié bastante sus argumentos, y concuerdo con ambos, hacer estudios sociológicos tomando
@@ -137,8 +137,8 @@ educativos independientes (como el [Refresh](http://refreshvalencia.org/))
 que de ser posible establezcan alianzas con la institución,
 de manera que se puedan tomar en cuenta como válidos dentro de la credencial educativa,
 también tomamos en cuenta la mortalidad del currículo en base al grado de
-actualización del tópico de estudio, y recordamos que la solución es algo como
-la propuesta de las [OpenBadges](http://openbadges.org/en-US/) de Mozilla.
+actualización del tópico de estudio, y recordamos que la solución podría ser
+algo como lo que plantea Mozilla con las [OpenBadges](http://openbadges.org/en-US/).
 
 Pero este tema es tan llamativo que no pudimos evitar retomarlo,
 esta vez fuimos otras personas, mediante Twitter, durante este Domingo 25 (Hoy mismo):
@@ -154,10 +154,10 @@ durante sus estudios. Además de esto, comentamos que otro problema está
 en la calidad del profesorado: por una parte los estudiantes no tienen
 interés, pero también es cierto que los profesores ganan poco,
 y que no se les exige mucho para graduarse de pedagogos,
-y menos para trabajar, me explico: Resulta que, por los ingresos insuficientes,
+y menos para trabajar, me explico: Resulta que, por ingresos insuficientes,
 las instituciones educativas se conforman con quienes puedan resolver
 sus necesidades puntuales, así que terminan contratando a
-personas a mitad de los pocos años de carrera necesarios,
+personal con a penas una mitad cumplida de los años necesarios para graduarse,
 o peor aún, contratando a educadores con formaciones distintas
 a las asignaturas que le ofrecen, es decir: que no entienden qué están explicando.
 En eso último añadí algunas de mis perspectivas, lo cierto es que
