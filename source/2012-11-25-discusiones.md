@@ -124,7 +124,7 @@ de estos índices en el siguiente enlace: [Differences Between Developed and Dev
 El tercer toque de este sumito trata sobre
 la efectividad de las instituciones educativas en el mercado nacional
 y global, pero antes de caer en ella, si consiguen algo de tiempo, lean por favor
-[esta discusión](http://www.deviantart.com/download/336926551/dialogo_sobre_la_educación_contemporanea_by_sadasant-d5kli6v.png)
+**[esta discusión](https://fc00.deviantart.net/fs70/f/2012/314/c/a/dialogo_sobre_la_educacion_contemporanea_by_sadasant-d5kli6v.png)**
 que tuve hace algunos días sobre el tema.
 
 Para darles una imagen un poco más breve, el asunto es que
