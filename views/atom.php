@@ -31,12 +31,12 @@ foreach ($glob as $k => $filename) {
   $newname  = strtolower(str_replace('.md', '.html', substr($filename, 7)));
   $date     = explode('-', $newname);
   $content  = explode('--- ', file_get_contents($filename));
+  array_shift($content);
   $raw_data = array_shift($content);
   $data     = json_decode($raw_data);
   $parts    = array();
   foreach ($content as $kk => $content_value) {
-    $content_value = preg_split("/ ---\n/", $content_value);
-    $parts[$content_value[0]] = Markdown($content_value[1]);
+    $parts[$kk] = Markdown($content_value);
   }
 
   // URL name
@@ -67,10 +67,10 @@ foreach ($glob as $k => $filename) {
       <![CDATA[';
 
   // Image at the title
-  if ($parts['image_title']) {
-    $items .= str_replace('.jpg"', '-mobile.jpg"', $parts['image_title']);
+  if (count($parts) > 1) {
+    $items .= str_replace('.jpg"', '-mobile.jpg"', array_shift($parts));
   }
-  $items .= $parts['content'].'
+  $items .= $parts[0].'
         <br/>
         <div class="by">
           <small>License: <a href="http://sadasant.com/license">by-nc-sa</a></small>
