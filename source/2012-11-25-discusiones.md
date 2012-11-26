@@ -51,9 +51,10 @@ como para verterlo todo aquí.
 El primer punto a discernir fue: _¿El estado es lo mismo que el gobierno?_
 Pienso que no, pero en vista de que para algunos sí (y están muy seguros de que sí)
 entonces supongo que podemos llevar la palabra _estado_ a que signifique gobierno,
-pero entonces no puede significar la condición actual de la ciudadanía (como había entendido).
+pero entonces no puede significar la condición actual de la ciudadanía
+(como [había entendido](http://etimologias.dechile.net/?estado)).
 
-Luego hubieron otras respuestas, algunas más inquietantes:
+Luego hubo otras respuestas, algunas más inquietantes:
 
 > “La solución para Venezuela esta en el gobierno.
 Es imposible que cada ciudadano con eso de "aportando el grano de arena"

@@ -81,6 +81,7 @@ foreach ($glob as $k => $filename) {
   $parts    = array();
   foreach ($content as $kk => $content_value) {
     $parts[$kk] = Markdown($content_value);
+    $parts[$kk] = str_replace('<a href', '<a target="_blank" href', $parts[$kk]);
   }
 
   echo "<br> (As: $newname)";
@@ -177,6 +178,7 @@ foreach ($glob as $k => $filename) {
   $parts    = array();
   foreach ($content as $kk => $content_value) {
     $parts[$kk] = Markdown($content_value);
+    $parts[$kk] = str_replace('<a href', '<a target="_blank" href', $parts[$kk]);
   }
 
   // Adding the name to the total array
