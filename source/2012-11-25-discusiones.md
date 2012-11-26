@@ -27,7 +27,7 @@ Como apertura, recapitularé algunas de las cosas que dije:
     en cómo resolvamos las necesidades de donde vivimos
     ](https://mobile.twitter.com/sadasant/status/271999481057275904).
 
--   [¿Desde cuando las leyes promueven cultura?
+-   [¿Desde cuándo las leyes promueven cultura?
     Las normas a veces limitan para bien,
     pero la cultura crece es con el libre intercambio de ideas
     ](https://mobile.twitter.com/sadasant/status/272000615373230081).
@@ -53,6 +53,7 @@ Pienso que no, pero en vista de que para algunos sí (y están muy seguros de qu
 entonces supongo que podemos llevar la palabra _estado_ a que signifique gobierno,
 pero entonces no puede significar la condición actual de la ciudadanía
 (como [había entendido](http://etimologias.dechile.net/?estado)).
+Considero que el gobierno es parte del estado, y no al revés.
 
 Luego hubo otras respuestas, algunas más inquietantes:
 
@@ -61,14 +62,14 @@ Es imposible que cada ciudadano con eso de "aportando el grano de arena"
 solucione los problemas”  
 &ndash; [Mario][Aubourg].
 
-Le respondí con franqueza y me respondió con el mismo tono, diciendo que los aportes
+Le expresé mi franco desacuerdo y me respondió con el mismo tono, diciendo que los aportes
 individuales se podían, pero _no en este país_, además, hizo referencia a la falta
 de cultura de la clase media-alta en algunas ciudades, y con esto concuerdo,
 pero lo que más me incomodó fueron las siguientes líneas:
 
--   “La educación es una utopía tan mentirosa como el mismo comunismo”,
--   “El orden no se logra con educación. Se logra con represión. Si lo dudas estudia esos países”.
--   “... para mi la educación no es la solución. La solución es mano dura”.  
+-   “_La educación es una utopía tan mentirosa como el mismo comunismo_”.
+-   “_El orden no se logra con educación. Se logra con represión. Si lo dudas estudia a los países desarrollados_”.
+-   “_... para mi la educación no es la solución. La solución es mano dura_”.  
     &ndash; [Mario][Aubourg]
 
 Tuve que decirle que,
@@ -83,34 +84,34 @@ a cambio de cooperación y compromiso; pero ahí ya estamos tocando temas que de
 
 La discusión acabó ahí, aunque también hubieron otros comentarios que me gustaron:
 
--   Una cita a Gary Becker: “No importa cuan grande sea la sanción o el castigo,
-    sino la probabilidad de que te atrapen con la utilidad que te pueda generar incumplir la ley”.
+-   Una cita a Gary Becker: “_No importa cuan grande sea la sanción o el castigo,
+    sino la probabilidad de que te atrapen con la utilidad que te pueda generar incumplir la ley_”.
 
--   “La ley está, la sanción está, pero no hay métodos para hacer
+-   “_La ley está, la sanción está, pero no hay métodos para hacer
     que se cumpla, por lo tanto el riesgo de que me sancionen es nulo,
-    así que tiendo a no cumplir la ley”.
+    así que tiendo a no cumplir la ley_”.
 
--   “Tiene que ser un buen sistema penitenciario y educación,
-    es un conjunto de soluciones no una sola”.  
+-   “_Tiene que ser un buen sistema penitenciario y educación,
+    es un conjunto de soluciones no una sola_”.  
     &ndash; [Mily][Elzughayar]
 
 ## Cuáles o cuántas causas aumentan el índice de [natalidad](http://youtu.be/5iWrLDfikmQ?t=5m5s)
 
 La siguiente discusión así extensa fue provocada por una cita de George Box:
-“Essentially, all models are wrong, but some are useful”.
+“_Essentially, all models are wrong, but some are useful_”.
 En respuesta recibí algunos comentarios cuyos criterios me parecen acertados:
 
--   “Los modelos son formas de explicar la realidad, pero no son la realidad.
-    Ese es el error de muchos ingenieros sociales, pretender que la realidad se adapte al modelo”.  
+-   “_Los modelos son formas de explicar la realidad, pero no son la realidad.
+    Ese es el error de muchos ingenieros sociales, pretender que la realidad se adapte al modelo_”.  
     &ndash; [Osmel][Brito]
 
--   “Es que es imposible determinar el pensamiento de toda una sociedad y reducirlo a un modelo,
+-   “_Es que es imposible determinar el pensamiento de toda una sociedad y reducirlo a un modelo,
     a una ecuación. Se buscan patrones de conducta de lo que debería ser racional, sin embargo
     suceden cosas como: "La conducta social nos lleva a que no tenemos hijos porque es muy difícil
     la manutención de los mismos, y aquellas personas que menos poseen, y gente de bajo nivel de educación,
     tienen hijos de a lote" entonces rozamos en la subjetividad de lo racional con lo irracional.
     Se supone que dado que es difícil la manutención no los tenemos entonces ¿Por qué paren tanto?
-    ¿No piensan? ¿No son racionales? en fin...”  
+    ¿No piensan? ¿No son racionales? en fin..._”  
     &ndash; [Mily][Elzughayar]
 
 Aprecié bastante sus argumentos, y concuerdo con ambos, hacer estudios sociológicos tomando

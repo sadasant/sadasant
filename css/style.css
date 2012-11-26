@@ -1,6 +1,6 @@
 
 html {
-; font-family : Palatino
+; font-family : 'Fenix', serif
 ; background  : #0d0d0d
 ; overflow-x  : hidden
 }
@@ -49,7 +49,7 @@ hr {
 ; display : block
 }
 #main h1 {
-; margin-top  : 18px
+; margin-top  : 26px
 ; font-size   : 26px
 ; font-weight : bold
 }
@@ -75,7 +75,7 @@ hr {
 ; width      : 177px
 ; background : black
 ; color      : white
-; margin     : -5px 0 0 0
+; margin     : -4px 0 0 0
 ; border-top : 1px solid #111
 ; text-align : center
 ; top        : 141px
@@ -144,8 +144,8 @@ hr {
 
 
 #links {
-; margin  : 143px 0 0 177px
-; padding : 0 0 6px 4px
+; margin  : 145px 0 0 177px
+; padding : 0 0 7px 10px
 ; border-bottom : 1px solid #181818
 }
 #links li {
@@ -248,6 +248,9 @@ hr {
 #trunk .article .content a:hover {
 ; color : white
 }
+#trunk .article .content em {
+; font-style : italic
+}
 #trunk .article .content code {
 ; font-size     : 13px
 ; color         : #888
@@ -290,7 +293,7 @@ hr {
 ; -webkit-border-radius : 3px
 }
 #trunk .article .content li {
-; margin           : 0 0 0 20px
+; margin           : 0 0 17px 20px
 ; list-style-image : url(/images/bullets.png)
 }
 #trunk .article .content p:last-child {
@@ -333,7 +336,7 @@ hr {
   ; padding : 0px 8px
   }
   #main h1 {
-  ; margin-top : 7px
+  ; margin-top : 11px
   }
   #left #logo {
   ; width   : 50px

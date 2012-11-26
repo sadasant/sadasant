@@ -17,6 +17,7 @@ $minified = $_GET['development'] ? '' : '.min';
 	<title>sadasant.com</title>
 	<link rel="icon" type="image/x-icon" href="/images/sadasant.ico" />
 	<link rel="alternate" type="application/rss+xml" href="/rss/" title="sadasant's RSS" />
+    <link href='http://fonts.googleapis.com/css?family=Fenix&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/css/yui-reset-min.css" />
 	<link rel="stylesheet" href="/css/style.css" />
 	<script type="text/javascript" src="/js/Shade<?=$minified?>.js"></script>
