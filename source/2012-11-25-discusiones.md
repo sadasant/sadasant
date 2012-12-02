@@ -5,7 +5,6 @@
       , "society"
       , "spanish"
       , "thoughts"
-      , "university"
       ]
     , "title" : "Recopilación de Discusiones para el 25 de Noviembre"
     }
@@ -137,7 +136,7 @@ que la mejor manera era incentivando la libre asociación de personas con progra
 educativos independientes (como el [Refresh](http://refreshvalencia.org/))
 que de ser posible establezcan alianzas con la institución,
 de manera que se puedan tomar en cuenta como válidos dentro de la credencial educativa,
-también tomamos en cuenta la mortalidad del currículo en base al grado de
+también analizamos la caducidad del currículo en base al grado de
 actualización del tópico de estudio, y recordamos que la solución podría ser
 algo como lo que plantea Mozilla con las [OpenBadges](http://openbadges.org/en-US/).
 
