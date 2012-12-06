@@ -112,7 +112,7 @@ estratos sociales, ajenas a la voluntad del estado y por esto parecen injustas,
 es decir: ¿Por qué dejar que el pueblo escoja para quién trabajar si ya tenemos
 a un ente centralizado que se encarga de distribuir los recursos? &mdash;
 Los socialistas piensan que el pueblo es débil e insustentable
-por si mismo, mientras los liberalistas piensan lo contrario,
+por sí mismo, mientras los liberalistas piensan lo contrario,
 quizás con demasiado optimismo.
 
 Ambas ideologías no son mucho más que ideales,
