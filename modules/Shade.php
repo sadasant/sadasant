@@ -59,7 +59,6 @@ class Shade {
     elseif (is_numeric($req['page'])) {
       postsPerDate($this, $req);
     }
-
     // Call 404
     else {
       $this->forbidden();
