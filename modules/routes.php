@@ -221,9 +221,4 @@ function hobbies($Shade) {
   ));
 }
 
-// Forbidden
-function forbidden($Shade) {
-  $Shade->view('views/404');
-}
-
 ?>
