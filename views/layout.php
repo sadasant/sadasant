@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 
 <!--
-// sadasant.com
-// by Daniel R.
-// c) 2012
+sadasant.com
+by Daniel R.
+c) 2012
 -->
 
 <?
