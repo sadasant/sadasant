@@ -299,6 +299,19 @@ hr {
 #trunk .article .content p:last-child {
 ; margin : 0
 }
+#trunk .article .content img {
+; box-shadow            : 3px 3px 9px black
+; border-radius         : 3px
+; -moz-border-radius    : 3px
+; -webkit-border-radius : 3px
+; max-width             : 77%
+}
+#trunk .article .content small.imginfo {
+; text-align  : center
+; color       : #333
+; margin-left : 15px
+}
+
 #trunk .article .by {
 ; margin    : 0 0 20px 30px
 ; color     : #555
