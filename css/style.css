@@ -1,0 +1,404 @@
+
+html {
+; font-family : 'Fenix', serif
+; background  : #0d0d0d
+; overflow-x  : hidden
+}
+
+a {
+; color : inherit
+; text-decoration : none
+; border-bottom   : 1px solid #333
+}
+a:hover {
+; border-bottom : 1px solid #444
+}
+
+strong {
+; font-weight : bold
+}
+
+hr {
+; border : 1px solid black
+; margin : 30px 0
+}
+
+::selection {
+; background : #c4c4c4
+; color      : black
+}
+::-moz-selection {
+; background : #777
+; color      : black
+}
+
+#main {
+; height        : 137px
+; width         : 100%
+; color         : white
+; background    : black
+; margin-left   : 177px
+; border-bottom : 1px solid #111
+; position      : absolute
+; top           : 0
+; z-index       : 1
+; box-shadow    : 11px 0 11px black
+}
+#main * {
+; padding : 3px 15px
+; display : block
+}
+#main h1 {
+; margin-top  : 26px
+; font-size   : 26px
+; font-weight : bold
+}
+
+#left {
+; position   : fixed
+; box-shadow : 0 0 11px black
+; top        : 0
+; height     : 100%
+}
+#left a:first-child {
+; border : 0
+}
+#left #logo {
+; background    : black
+; padding       : 30px 50px;
+; top           : 0
+; cursor        : pointer
+; width         : 77px
+; height        : 77px
+}
+#filter {
+; width      : 177px
+; background : black
+; color      : white
+; margin     : -4px 0 0 0
+; border-top : 1px solid #111
+; text-align : center
+; top        : 141px
+; height     : 100%
+}
+#filter li {
+; padding            : 5px
+; margin             : 3px 3px 5px 5px
+; border             : 1px solid #0d0d0d
+; width              : 155px
+; color              : #666
+; border-radius         : 3px
+; -moz-border-radius    : 3px
+; -webkit-border-radius : 3px
+; transition         : color .5s ease 0s
+; -moz-transition    : color .5s ease 0s
+; -webkit-transition : color .5s ease 0s
+; transition         : border .5s ease 0s
+; -moz-transition    : border .5s ease 0s
+; -webkit-transition : border .5s ease 0s
+; text-overflow      : ellipsis
+; white-space        : nowrap
+; overflow           : hidden
+; font-size          : 16px
+}
+#filter li a {
+; outline : 0
+}
+#filter li:hover {
+; color         : white
+; cursor        : pointer
+; border        : 1px solid #222
+}
+#filter li.active {
+; background         : #333
+; color              : #aaa
+; border             : 1px solid #333
+; border-bottom      : 1px solid #222
+; box-shadow         : inset 0 -5px 30px black
+; transition         : background .5s ease 0s
+; -moz-transition    : background .5s ease 0s
+; -webkit-transition : background .5s ease 0s
+}
+#filter li.active:hover {
+; color      : white
+; background : #222
+}
+#filter li:first-child {
+; margin   : -7px 0 29px 0
+; border   : 0
+; overflow : visible
+}
+#filter li:first-child input {
+; background    : #000
+; float         : left
+; width         : 159px
+; border        : 1px solid #111
+; border-top    : 0
+; padding       : 4px 3px
+; height        : 21px
+; color         : #ddd
+; border-radius         : 0 0 3px 3px
+; -moz-border-radius    : 0 0 3px 3px
+; -webkit-border-radius : 0 0 3px 3px
+}
+
+
+#links {
+; margin  : 145px 0 0 177px
+; padding : 0 0 7px 10px
+; border-bottom : 1px solid #181818
+}
+#links li {
+; display : inline-block
+; margin  : 0
+}
+#links li a {
+; padding       : 0 10px
+; color         : #555
+; border-bottom : 0
+; margin        : 0 0 0 -4px
+}
+#links li a:hover {
+; color         : white
+; border-bottom : 0
+}
+
+
+#trunk {
+; margin : 0 0 0 177px
+}
+#trunk .article, #trunk .headline {
+; background         : #111
+; border-bottom      : 1px solid #000
+; transition         : opacity .5s ease 0s
+; -moz-transition    : opacity .5s ease 0s
+; -webkit-transition : opacity .5s ease 0s
+}
+#trunk .article .data, #trunk .headline .data {
+; display : none
+}
+#trunk .article .title, #trunk .headline .title{
+; width  : 100%
+; border-bottom : 1px solid #0d0d0d
+}
+#trunk .article .title img {
+; width         : 100%
+; margin        : 0
+; border-bottom : 1px solid #222
+}
+#trunk .article .title h1, #trunk .headline .title h1 {
+; padding     : 35px 20px 0px 30px
+; color       : #ccc
+; font-weight : bold
+; font-size   : 35px
+; width       : 70%
+}
+#trunk .article .title h1 a:hover, #trunk .headline .title h1 a:hover {
+; color : white
+}
+#trunk .article .date, #trunk .headline .date {
+; right          : 0
+; float          : right
+; margin         : 0
+; padding        : 50px 20px 0 0
+; width          : 38%
+; color          : #555
+; text-align     : right
+; font-style     : italic
+; font-size      : 15px
+; letter-spacing : 1px
+; text-shadow    : 1px 1px 0 black
+}
+#trunk .article .date *, #trunk .headline .date * {
+; display     : inline-block
+; margin-left : 5px
+}
+#trunk .article .date *:hover, #trunk .headline .date *:hover {
+; color : white
+}
+#trunk .article .date .day, #trunk .article .date .year {
+; font-weight : bold
+}
+#trunk .article .date .day:hover, #trunk .article .date .month:hover, #trunk .article .date .year:hover {
+; color : white
+}
+#trunk .article .content {
+; color      : #ddd
+; width      : 77%
+; max-width  : 555px
+; padding    : 18px 20px 30px 30px
+; font-size  : 17px
+}
+#trunk .article .content h1, #trunk .article .content h2, #trunk .article .content h3 {
+; font-weight : bold
+; margin-top  : 30px
+}
+#trunk .article .content h1 {
+; font-size   : 1.8em
+}
+#trunk .article .content h2 {
+; font-size   : 1.4em
+}
+#trunk .article .content h3 {
+; font-size   : 1em
+}
+#trunk .article .content p {
+; margin : 16px 0
+}
+#trunk .article .content a:hover {
+; color : white
+}
+#trunk .article .content em {
+; font-style : italic
+}
+#trunk .article .content code {
+; font-size     : 13px
+; color         : #888
+; background    : black
+; padding       : 3px
+; border        : 1px solid #171717
+; border-top    : 1px solid #111111
+; border-bottom : 1px solid #222222
+; box-shadow    : 0 0 3px #070707
+}
+#trunk .article .content pre {
+; font-size             : 13px
+; color                 : #888
+; background            : black
+; padding               : 10px
+; overflow-x            : hidden
+; border                : 1px solid #171717
+; border-top            : 1px solid #111111
+; border-bottom         : 1px solid #222222
+; border-radius         : 3px
+; -moz-border-radius    : 3px
+; -webkit-border-radius : 3px
+; box-shadow            : 0 0 3px #070707
+}
+#trunk .article .content pre:hover {
+; overflow-x : scroll
+}
+#trunk .article .content pre code {
+; padding    : 0
+; border     : 0
+; box-shadow : none
+}
+#trunk .article .content blockquote {
+; font-style : italic
+; padding    : 10px 10px 10px 20px
+; background : #171717
+; color      : #888
+; border-radius         : 3px
+; -moz-border-radius    : 3px
+; -webkit-border-radius : 3px
+}
+#trunk .article .content li {
+; margin           : 0 0 17px 20px
+; list-style-image : url(/images/bullets.png)
+}
+#trunk .article .content p:last-child {
+; margin : 0
+}
+#trunk .article .content img {
+; box-shadow            : 3px 3px 9px black
+; border-radius         : 3px
+; -moz-border-radius    : 3px
+; -webkit-border-radius : 3px
+; max-width             : 77%
+}
+#trunk .article .content small.imginfo {
+; text-align  : center
+; color       : #333
+; margin-left : 15px
+}
+
+#trunk .article .by {
+; margin    : 0 0 20px 30px
+; color     : #555
+; font-size  : 18px
+; font-type : italic
+}
+#trunk .article .share {
+; background    : #0f0f0f
+; color         : white
+; padding       : 0 20px
+; border-top    : 1px solid #0b0b0b
+; border-bottom : 1px solid #090909
+; font-size     : 18px
+}
+#trunk .article .share * {
+; display : inline-block
+; padding : 9px
+}
+#trunk .article .share li {
+; color : #C4C4C4
+}
+#trunk .article .share li:hover {
+; color : #FFF
+}
+
+@media screen and (max-width: 480px) {
+  #main {
+  ; height : 90px
+  }
+  #main {
+  ; margin : 0 0 0 80px
+  ; height : 90px
+  }
+  #main * {
+  ; padding : 0px 8px
+  }
+  #main h1 {
+  ; margin-top : 11px
+  }
+  #left #logo {
+  ; width   : 50px
+  ; height  : 50px
+  ; padding : 20px 15px
+  }
+  #left #filter {
+  ; width : 80px
+  }
+  #left #filter li {
+  ; width     : 57px
+  ; font-size : 14px
+  }
+  #left #filter input {
+  ; width : 61px
+  }
+  #links {
+  ; margin-left : 80px
+  ; margin-top  : 94px
+  }
+  #links li a {
+  ; font-size : 13px
+  }
+  #trunk {
+  ; margin-left : 80px
+  }
+  #trunk .article .title h1 {
+  ; padding-left : 15px
+  ; font-size    : 1.8em
+  }
+  #trunk .article .title .date {
+  ; padding : 15px 15px 15px 0
+  }
+  #trunk .article .content {
+  ; padding-left : 15px
+  ; font-size    : .9em
+  }
+  #trunk .article .by {
+  ; margin-left : 15px
+  ; font-size   : .9em
+  }
+  #trunk .article .share {
+  ; font-size : 14px
+  ; padding   : 0 7px
+  }
+  #trunk .article .share b {
+  ; margin : 10px 0 0 10px
+  }
+  #trunk .article .share * {
+  ; padding : 5px 0 5px 6px
+  }
+}
