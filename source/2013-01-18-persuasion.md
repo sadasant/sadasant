@@ -2,7 +2,6 @@
 
     { "tags" : [
         "analysis"
-      , "exercise"
       , "review"
       , "spanish"
       , "society"
@@ -117,3 +116,4 @@ Un abrazo.
 [WIKI1]: http://es.wikipedia.org/wiki/Noosfera "Noósfera en Wikipedia"
 [feeds]: https://gist.github.com/4567299 "Mis feeds en Google Reader"
 [YUTU1]: https://www.youtube.com/watch?v=cFdCzN7RYbw "YouTube: Science of Persuasion"
+[R1]: http://www.reddit.com/r/psychology/comments/16rfxu/the_science_of_persuasion/
