@@ -85,7 +85,7 @@ He aquí el resultado:
     aceptar una propuesta, nos provocará seguirles.
     Para aprovechar esto, la recomendación del vídeo es:
     _Entregar información sobre cómo otros aprecian o hacen uso de nuestras
-    propuestas incrementa las probabilidades de éxito._
+    propuestas._
 
 Habiendo visto el vídeo y escrito esto, se me ocurren unas cuantas ideas,
 partiendo del ejemplo que presentan en el que una comunidad decidió
@@ -93,21 +93,20 @@ aprobar una ley de transito por haber compartido antes la idea de colocar
 en sus casas un avisito que decía "yo manejo bien", imagínense qué podríamos
 hacer en Venezuela si colocáramos "yo respeto a mis vecinos", si se llegase
 a hacer moda, quizás veríamos una mejora consistente en el respeto
-a la propiedad privada, menos contaminación sonora, creo que podemos empezar
-todos en las organizaciones a las que pertenecemos, es más, estén atentos,
+a la propiedad privada, o menos contaminación sonora, creo que podemos empezar
+todos en las organizaciones a las que pertenecemos, ¡pero con nuevas ideas!,
 con un cuadro de "mejor del mes" se hace más bien una competencia donde
-siempre uno será el mejor, sin embargo se pueden idear otros modelos, donde
+siempre _uno_ será el mejor, sin embargo se pueden idear otros modelos, donde
 todos tengan la oportunidad de ganar, ¿qué pasaría si se entregan calcomanías o
 medallas a quienes lleguen temprano?, ¿o a quienes hagan un trabajo de calidad?,
 en las instituciones educativas se podrían entregar premios similares
 por haberse destacado en algún valor, como el respeto o el aprecio,
 ¡A lo _scouts_!
 
-Considero que con propuestas así, de hacerse, se podrían lograr cambios sociales
-importantes sin tener que invertir en millones con campañas publicitarias
+Considero que con propuestas así, de hacerse, se lograrían cambios sociales
+importantes sin tener que invertir en millones en campañas publicitarias
 o propagandísticas con fines populistas, incluso creo que por haber hecho eso
-mismo con antivalores es que vivimos como vivimos... como el "_Vida y más na'_"
-por ejemplo.
+mismo con antivalores es que vivimos como vivimos...
 
 ¿Qué les parece? Envíenme sus comentarios :)
 
