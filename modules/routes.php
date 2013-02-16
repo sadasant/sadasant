@@ -203,6 +203,15 @@ function feed($Shade) {
   atom($Shade);
 }
 
+// About
+function about($Shade) {
+  $Shade->view('views/layout', array(
+    'view'      => 'views/post'
+  , 'post'      => file_get_contents('about.html')
+  , 'tags'      => json_decode(file_get_contents('json/top_tags.json'))
+  ));
+}
+
 // Projects
 function projects($Shade) {
   $Shade->view('views/layout', array(

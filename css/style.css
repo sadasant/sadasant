@@ -49,13 +49,22 @@ hr {
 ; display    : block
 ; margin     : 10px 0 0 65px
 ; float      : left
+; margin-bottom : 100px
+}
+#main #names a {
+; color : inherit
+}
+#main #names a:hover {
+; font-style : normal
 }
 #main #names h1 {
 ; font-size   : 33px
 ; font-weight : bold
 }
 #main #links {
-; margin  : 51px 0 0 0
+; margin      : 28px 0 0 0
+; line-height : 20px
+; font-size   : 16px
 }
 #main #links li {
 ; display : inline-block
@@ -90,7 +99,7 @@ hr {
 }
 #filter {
 ; width      : 177px
-; color      : white
+; color      : #666
 ; text-align : right
 ; top        : 141px
 ; height     : 100%
@@ -98,7 +107,6 @@ hr {
 #filter li {
 ; margin        : 3px 0 0 0
 ; width         : 155px
-; color         : #666
 ; text-overflow : ellipsis
 ; white-space   : nowrap
 ; overflow      : hidden
@@ -114,10 +122,11 @@ hr {
 #filter li:hover a {
 ; color  : white
 }
-#filter li.active {
-; color : #aaa
+#filter li.active a {
+; color       : #bbb
+; font-weight : bold
 }
-#filter li.active:hover {
+#filter li.active:hover a {
 ; color : white
 }
 #filter li:first-child {
@@ -149,9 +158,9 @@ hr {
 ; width  : 100%
 }
 #trunk .article .title img {
-; width         : 100%
-; margin        : 0
-; border-bottom : 1px solid #222
+; width         : 70%
+; margin        : 5px 0 -40px 0
+; border-bottom : 1px solid rgba(22,22,22,.5)
 }
 #trunk .article .title h1, #trunk .headline .title h1 {
 ; padding     : 60px 20px 0px 0
@@ -169,7 +178,7 @@ hr {
 ; right          : 0
 ; float          : right
 ; margin         : 0
-; padding        : 50px 20px 0 0
+; padding        : 90px 20px 0 0
 ; width          : 38%
 ; color          : #555
 ; text-align     : right
@@ -208,6 +217,7 @@ hr {
 }
 #trunk .article .content h3 {
 ; font-size   : 1em
+; margin-top  : 20px
 }
 #trunk .article .content p {
 ; margin : 16px 0
@@ -233,6 +243,7 @@ hr {
 ; color                 : #888
 ; background            : black
 ; padding               : 10px
+; margin                : 10px 0
 ; overflow-x            : hidden
 ; border                : 1px solid #171717
 ; border-top            : 1px solid #111111
@@ -240,7 +251,8 @@ hr {
 ; border-radius         : 3px
 ; -moz-border-radius    : 3px
 ; -webkit-border-radius : 3px
-; box-shadow            : 0 0 3px #070707
+; box-shadow            : inset 10px 0 30px #0A0A0A
+                        , inset 30px 0 100px #070707
 }
 #trunk .article .content pre:hover {
 ; overflow-x : scroll
@@ -248,19 +260,23 @@ hr {
 #trunk .article .content pre code {
 ; padding    : 0
 ; border     : 0
-; box-shadow : none
+; background : none
 }
 #trunk .article .content blockquote {
 ; font-style : italic
-; padding    : 10px 10px 10px 20px
-; background : #171717
-; color      : #888
-; border-radius         : 3px
-; -moz-border-radius    : 3px
-; -webkit-border-radius : 3px
+; padding    : 10px 10px 10px 15px
+; background : black
+; color      : #777
+; font-size  : 16px
+; box-shadow : inset 10px 0 30px #0A0A0A
+             , inset 30px 0 100px #070707
+}
+#trunk .article .content ul {
+; margin : 8px 0 4px 0
 }
 #trunk .article .content li {
-; margin           : 0 0 17px 20px
+; margin           : 0 0 8px 20px
+; padding-left     : 4px
 ; list-style-image : url(/images/bullets.png)
 }
 #trunk .article .content p:last-child {
@@ -277,6 +293,18 @@ hr {
 ; text-align  : center
 ; color       : #333
 ; margin-left : 15px
+}
+#trunk .article .content table {
+; margin : 10px 0
+}
+#trunk .article .content table tr {
+; border-bottom : 1px solid #111
+}
+#trunk .article .content table td {
+; padding : 10px 5px
+}
+#trunk .article .content table tr:last-child {
+; border-bottom : 0
 }
 
 #trunk .article .by {
@@ -303,24 +331,25 @@ hr {
 ; color : #FFF
 }
 
-@media screen and (max-width: 480px) {
-  #main {
-  ; height : 90px
+@media screen and (max-width: 600px) {
+  #main #names {
+  ; margin-left : 0px
   }
-  #main {
-  ; margin : 0 0 0 80px
-  ; height : 90px
+  #main #links {
+  ; margin-top : 27px
+  ; line-height : 21px
   }
-  #main * {
-  ; padding : 0px 8px
+  #main #links li a {
+  ; font-size : 13px
+  ; padding : 5px
   }
-  #main h1 {
-  ; margin-top : 11px
+  #left {
+  ; left : 20px
   }
   #left #logo {
   ; width   : 50px
   ; height  : 50px
-  ; padding : 20px 15px
+  ; padding : 25px 15px 5px
   }
   #left #filter {
   ; width : 80px
@@ -332,39 +361,34 @@ hr {
   #left #filter input {
   ; width : 61px
   }
-  #links {
-  ; margin-left : 80px
-  ; margin-top  : 94px
-  }
-  #links li a {
-  ; font-size : 13px
-  }
   #trunk {
-  ; margin-left : 80px
+  ; margin-left : 100px
+  }
+  #trunk .article .title img {
+  ; margin-bottom : -10px
   }
   #trunk .article .title h1 {
-  ; padding-left : 15px
-  ; font-size    : 1.8em
+  ; font-size   : 1.8em
+  ; padding-top : 20px
   }
   #trunk .article .title .date {
-  ; padding : 15px 15px 15px 0
+  ; padding : 25px 15px 15px 0
   }
   #trunk .article .content {
-  ; padding-left : 15px
-  ; font-size    : .9em
+  ; font-size : .9em
   }
   #trunk .article .by {
-  ; margin-left : 15px
   ; font-size   : .9em
   }
   #trunk .article .share {
   ; font-size : 14px
-  ; padding   : 0 7px
+  ; padding : 5px 0 20px
   }
   #trunk .article .share b {
-  ; margin : 10px 0 0 10px
+  ; margin : 10px 0 0 0
   }
   #trunk .article .share * {
-  ; padding : 5px 0 5px 6px
+  ; padding : 0
+  ; padding : 0 5px 0 0
   }
 }

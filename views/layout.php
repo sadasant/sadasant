@@ -26,11 +26,14 @@ $minified = $_GET['development'] ? '' : '.min';
 
 	<div id="main">
 		<div id="names">
-			<h1>sadasant</h1>
-			<em>Daniel Rodríguez</em>
+            <a href="/<?=$_GET['development']?'?development=1':''?>">
+				<h1>sadasant</h1>
+				<em>Daniel Rodríguez</em>
+			</a>
 		</div>
 		<ul id="links">
 			<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
+			<li><a href="/about">About</a></li>
 			<li><a href="/projects">Projects</a></li>
 			<li><a href="/hobbies">Hobbies</a></li>
 			<li><a href="http://gkl.st/sadasant" target="_blank">Geeklist</a></li>
