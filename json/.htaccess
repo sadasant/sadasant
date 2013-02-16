@@ -1,0 +1,3 @@
+<filesmatch "\.(js|php*|css|pl|cgi|htm|html|jsp)$">
+deny from all
+</filesmatch>

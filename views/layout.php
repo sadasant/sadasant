@@ -25,15 +25,28 @@ $minified = $_GET['development'] ? '' : '.min';
 <body>
 
 	<div id="main">
-		<h1>sadasant</h1>
-		<em>Daniel Rodríguez</em>
-		<i>Conjeturas</i>
+		<div id="names">
+			<h1>sadasant</h1>
+			<em>Daniel Rodríguez</em>
+		</div>
+		<ul id="links">
+			<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
+			<li><a href="/projects">Projects</a></li>
+			<li><a href="/hobbies">Hobbies</a></li>
+			<li><a href="http://gkl.st/sadasant" target="_blank">Geeklist</a></li>
+			<li><a href="https://github.com/sadasant" target="_blank">Github</a></li>
+			<li><a href="https://twitter.com/sadasant" target="_blank">Twitter</a></li>
+			<li><a href="https://plus.google.com/111462690043808716220/" target="_blank">G+</a></li>
+			<li><a href="https://facebook.com/sadasant" target="_blank">Facebook</a></li>
+		</ul>
 	</div>
+
+
 
 	<div id="left">
 		<a href="/<?=$_GET['development']?'?development=1':''?>"><img id="logo" src="/images/whiteskull.png" alt="" /></a>
 		<ul id="filter">
-			<li><input type="text" placeholder="Filter..." autocomplete="off"/></li>
+			<li><input type="text" placeholder="Type Here!" autocomplete="off"/></li>
 <?
 // Listing the tags
 if ($p['active_tags']) {
@@ -53,17 +66,6 @@ if ($p['tags']) {
 ?>
 		</ul>
 	</div>
-
-	<ul id="links">
-		<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
-		<li><a href="/projects">Projects</a></li>
-		<li><a href="/hobbies">Hobbies</a></li>
-		<li><a href="http://gkl.st/sadasant" target="_blank">Geeklist</a></li>
-		<li><a href="https://github.com/sadasant" target="_blank">Github</a></li>
-		<li><a href="https://twitter.com/sadasant" target="_blank">Twitter</a></li>
-		<li><a href="https://plus.google.com/111462690043808716220/" target="_blank">G+</a></li>
-		<li><a href="https://facebook.com/sadasant" target="_blank">Facebook</a></li>
-	</ul>
 
 	<div id="trunk">
 <?

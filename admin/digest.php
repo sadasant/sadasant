@@ -123,7 +123,7 @@ foreach ($glob as $k => $filename) {
   $post_url   = urlencode('http://sadasant.com/' . $urlname);
   $post_title = urlencode('"' . $data->title . '" by @sadasant');
   $content .= '<div class="by">';
-  $content .=   '<a href="http://sadasant.com/license">by-nc-sa</a>';
+  $content .=   '<a href="http://sadasant.com/license">by-nc-sa</a> Daniel Rodríguez.';
   $content .= '</div>';
   $content .= '<div class="share">';
   $content .=   '<b>Share on:</b>';
@@ -132,7 +132,7 @@ foreach ($glob as $k => $filename) {
   $content .=     '<li><a href="#" onclick="window.open(\'https://plus.google.com/share?url=' . $post_url . '\', \'\', \'toolbar=0,status=0,resizable=1,width=626,height=436\'); return false">Google+</a></li>';
   $content .=     '<li><a href="#" onclick="window.open(\'https://www.facebook.com/sharer/sharer.php?s=100&p[url]=' . $post_url . '+&p[title]=' . $post_title . '\', \'\', \'toolbar=0,status=0,resizable=1,width=626,height=436\'); return false">Facebook</a></li>';
   $content .=   '</ul>';
-  $content .=   '<b>Send me your comments:</b>';
+  $content .=   '<b>Comments:</b>';
   $content .=   '<ul>';
   $content .=     '<li><a href="#" onclick="var user = \'sadasant\', host =\'sadasant.com\'; window.location = \'mailto:\' + user + \'@\' + host; return false">by Email</a></li>';
   $content .=   '</ul>';

@@ -1,17 +1,19 @@
 
 html {
 ; font-family : 'Fenix', serif
-; background  : #0d0d0d
+; background  : black
 ; overflow-x  : hidden
 }
 
 a {
-; color : inherit
+; color : #666
 ; text-decoration : none
-; border-bottom   : 1px solid #333
+; transition         : color .5s ease 0s
+; -moz-transition    : color .5s ease 0s
+; -webkit-transition : color .5s ease 0s
 }
 a:hover {
-; border-bottom : 1px solid #444
+; font-style : italic
 }
 
 strong {
@@ -33,39 +35,54 @@ hr {
 }
 
 #main {
-; height        : 137px
+; background    : rgba(5,5,5,.95)
+; height        : 85px
 ; width         : 100%
 ; color         : white
-; background    : black
-; margin-left   : 177px
 ; border-bottom : 1px solid #111
-; position      : absolute
+; position      : fixed
 ; top           : 0
 ; z-index       : 1
-; box-shadow    : 11px 0 11px black
 }
-#main * {
-; padding : 3px 15px
-; display : block
+#main #names {
+; padding    : 3px 20px
+; display    : block
+; margin     : 10px 0 0 65px
+; float      : left
 }
-#main h1 {
-; margin-top  : 26px
-; font-size   : 26px
+#main #names h1 {
+; font-size   : 33px
 ; font-weight : bold
 }
+#main #links {
+; margin  : 51px 0 0 0
+}
+#main #links li {
+; display : inline-block
+; margin  : 0
+}
+#main #links li a {
+; padding       : 0 10px
+; color         : #555
+; border-bottom : 0
+; margin        : 0 0 0 -4px
+}
+#main #links li a:hover {
+; color         : white
+; border-bottom : 0
+}
+
 
 #left {
-; position   : fixed
-; box-shadow : 0 0 11px black
-; top        : 0
-; height     : 100%
+; position : fixed
+; height   : 100%
+; left     : 50px
 }
 #left a:first-child {
 ; border : 0
 }
 #left #logo {
-; background    : black
-; padding       : 30px 50px;
+; padding       : 31px 0 10px 90px;
 ; top           : 0
 ; cursor        : pointer
 ; width         : 77px
@@ -73,113 +90,63 @@ hr {
 }
 #filter {
 ; width      : 177px
-; background : black
 ; color      : white
-; margin     : -4px 0 0 0
-; border-top : 1px solid #111
-; text-align : center
+; text-align : right
 ; top        : 141px
 ; height     : 100%
 }
 #filter li {
-; padding            : 5px
-; margin             : 3px 3px 5px 5px
-; border             : 1px solid #0d0d0d
-; width              : 155px
-; color              : #666
-; border-radius         : 3px
-; -moz-border-radius    : 3px
-; -webkit-border-radius : 3px
-; transition         : color .5s ease 0s
-; -moz-transition    : color .5s ease 0s
-; -webkit-transition : color .5s ease 0s
-; transition         : border .5s ease 0s
-; -moz-transition    : border .5s ease 0s
-; -webkit-transition : border .5s ease 0s
-; text-overflow      : ellipsis
-; white-space        : nowrap
-; overflow           : hidden
-; font-size          : 16px
+; margin        : 3px 0 0 0
+; width         : 155px
+; color         : #666
+; text-overflow : ellipsis
+; white-space   : nowrap
+; overflow      : hidden
+; font-size     : 16px
 }
 #filter li a {
 ; outline : 0
 }
 #filter li:hover {
-; color         : white
-; cursor        : pointer
-; border        : 1px solid #222
+; cursor     : pointer
+; font-style : italic
+}
+#filter li:hover a {
+; color  : white
 }
 #filter li.active {
-; background         : #333
-; color              : #aaa
-; border             : 1px solid #333
-; border-bottom      : 1px solid #222
-; box-shadow         : inset 0 -5px 30px black
-; transition         : background .5s ease 0s
-; -moz-transition    : background .5s ease 0s
-; -webkit-transition : background .5s ease 0s
+; color : #aaa
 }
 #filter li.active:hover {
-; color      : white
-; background : #222
+; color : white
 }
 #filter li:first-child {
-; margin   : -7px 0 29px 0
-; border   : 0
 ; overflow : visible
 }
 #filter li:first-child input {
 ; background    : #000
 ; float         : left
-; width         : 159px
-; border        : 1px solid #111
-; border-top    : 0
-; padding       : 4px 3px
+; text-align    : right
+; width         : 155px
+; border        : 0
+; border-bottom : 1px solid #111
+; padding       : 6px 0 3px
+; margin-bottom : 3px
 ; height        : 21px
 ; color         : #ddd
-; border-radius         : 0 0 3px 3px
-; -moz-border-radius    : 0 0 3px 3px
-; -webkit-border-radius : 0 0 3px 3px
-}
-
-
-#links {
-; margin  : 145px 0 0 177px
-; padding : 0 0 7px 10px
-; border-bottom : 1px solid #181818
-}
-#links li {
-; display : inline-block
-; margin  : 0
-}
-#links li a {
-; padding       : 0 10px
-; color         : #555
-; border-bottom : 0
-; margin        : 0 0 0 -4px
-}
-#links li a:hover {
-; color         : white
-; border-bottom : 0
 }
 
 
 #trunk {
-; margin : 0 0 0 177px
+; margin : 80px 0 0 230px
 }
 #trunk .article, #trunk .headline {
-; background         : #111
-; border-bottom      : 1px solid #000
-; transition         : opacity .5s ease 0s
-; -moz-transition    : opacity .5s ease 0s
-; -webkit-transition : opacity .5s ease 0s
 }
 #trunk .article .data, #trunk .headline .data {
 ; display : none
 }
 #trunk .article .title, #trunk .headline .title{
 ; width  : 100%
-; border-bottom : 1px solid #0d0d0d
 }
 #trunk .article .title img {
 ; width         : 100%
@@ -187,11 +154,13 @@ hr {
 ; border-bottom : 1px solid #222
 }
 #trunk .article .title h1, #trunk .headline .title h1 {
-; padding     : 35px 20px 0px 30px
-; color       : #ccc
+; padding     : 60px 20px 0px 0
 ; font-weight : bold
-; font-size   : 35px
+; font-size   : 50px
 ; width       : 70%
+}
+#trunk .article .title a, #trunk .headline .title a {
+; color       : #ddd
 }
 #trunk .article .title h1 a:hover, #trunk .headline .title h1 a:hover {
 ; color : white
@@ -204,10 +173,8 @@ hr {
 ; width          : 38%
 ; color          : #555
 ; text-align     : right
-; font-style     : italic
 ; font-size      : 15px
 ; letter-spacing : 1px
-; text-shadow    : 1px 1px 0 black
 }
 #trunk .article .date *, #trunk .headline .date * {
 ; display     : inline-block
@@ -226,7 +193,7 @@ hr {
 ; color      : #ddd
 ; width      : 77%
 ; max-width  : 555px
-; padding    : 18px 20px 30px 30px
+; padding    : 0px 20px 30px 0
 ; font-size  : 17px
 }
 #trunk .article .content h1, #trunk .article .content h2, #trunk .article .content h3 {
@@ -313,22 +280,21 @@ hr {
 }
 
 #trunk .article .by {
-; margin    : 0 0 20px 30px
+; margin    : 0 0 20px 0
 ; color     : #555
-; font-size  : 18px
+; font-size : 18px
 ; font-type : italic
 }
 #trunk .article .share {
-; background    : #0f0f0f
 ; color         : white
-; padding       : 0 20px
+; padding       : 0 0px
 ; border-top    : 1px solid #0b0b0b
 ; border-bottom : 1px solid #090909
 ; font-size     : 18px
 }
 #trunk .article .share * {
 ; display : inline-block
-; padding : 9px
+; padding : 9px 9px 9px 0
 }
 #trunk .article .share li {
 ; color : #C4C4C4
