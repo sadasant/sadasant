@@ -226,8 +226,8 @@ $count = 0;
 foreach ($tags as $k => $v) {
   $count += 1;
 
-  // Picking the first 20 more common
-  if ($count < 21) {
+  // Picking the first 30 more common
+  if ($count < 31) {
     array_push($top_tags, $k);
   }
 

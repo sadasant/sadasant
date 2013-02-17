@@ -8,6 +8,10 @@ c) 2012
 
 <?
 $minified = $_GET['development'] ? '' : '.min';
+if ($_GET['turn']) {
+  $_SESSION['black'] = $_SESSION['black'] ? false : true;
+}
+$B = !$_SESSION['black'];
 ?>
 
 <html lang="en">
@@ -17,25 +21,25 @@ $minified = $_GET['development'] ? '' : '.min';
 	<title>sadasant.com</title>
 	<link rel="icon" type="image/x-icon" href="/images/sadasant.ico" />
 	<link rel="alternate" type="application/rss+xml" href="/rss/" title="sadasant's RSS" />
-    <link href='http://fonts.googleapis.com/css?family=Fenix&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fenix&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/css/yui-reset-min.css" />
-	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/<?=$B?'':'white'?>style.css" />
 	<script type="text/javascript" src="/js/Shade<?=$minified?>.js"></script>
 </head>
 <body>
 
 	<div id="main">
 		<div id="names">
-            <a href="/<?=$_GET['development']?'?development=1':''?>">
+			<a href="/<?=$_GET['development']?'?development=1':''?>">
 				<h1>sadasant</h1>
 				<em>Daniel Rodríguez</em>
 			</a>
 		</div>
 		<ul id="links">
-			<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
 			<li><a href="/about">About</a></li>
 			<li><a href="/projects">Projects</a></li>
 			<li><a href="/hobbies">Hobbies</a></li>
+			<li><a href="http://feeds.feedburner.com/Sadasant" target="_blank">RSS</a></li>
 			<li><a href="http://gkl.st/sadasant" target="_blank">Geeklist</a></li>
 			<li><a href="https://github.com/sadasant" target="_blank">Github</a></li>
 			<li><a href="https://twitter.com/sadasant" target="_blank">Twitter</a></li>
@@ -45,9 +49,8 @@ $minified = $_GET['development'] ? '' : '.min';
 	</div>
 
 
-
 	<div id="left">
-		<a href="/<?=$_GET['development']?'?development=1':''?>"><img id="logo" src="/images/whiteskull.png" alt="" /></a>
+        <a href="<?$_SERVER['PATH_INFO']?>?turn=1"><img id="logo" src="/images/<?=$B?'white':''?>skull.png" alt="" /></a>
 		<ul id="filter">
 			<li><input type="text" placeholder="Type Here!" autocomplete="off"/></li>
 <?

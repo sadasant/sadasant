@@ -1,12 +1,12 @@
 
 html {
 ; font-family : 'Fenix', serif
-; background  : black
+; background  : white
 ; overflow-x  : hidden
 }
 
 a {
-; color : #666
+; color : #999
 ; text-decoration : none
 ; transition         : color .5s ease 0s
 ; -moz-transition    : color .5s ease 0s
@@ -26,20 +26,20 @@ hr {
 }
 
 ::selection {
-; background : #c4c4c4
-; color      : black
+; background : #000
+; color      : white
 }
 ::-moz-selection {
-; background : #777
-; color      : black
+; background : #000
+; color      : white
 }
 
 #main {
-; background    : rgba(5,5,5,.85)
+; background    : rgba(250,250,250,.85)
 ; height        : 85px
 ; width         : 100%
-; color         : white
-; border-bottom : 1px solid #111
+; color         : black
+; border-bottom : 1px solid #ddd
 ; position      : fixed
 ; top           : 0
 ; z-index       : 1
@@ -73,12 +73,12 @@ hr {
 }
 #main #links li a {
 ; padding       : 0 10px
-; color         : #555
+; color         : #777
 ; border-bottom : 0
 ; margin        : 0 0 0 -4px
 }
 #main #links li a:hover {
-; color         : white
+; color         : black
 ; border-bottom : 0
 }
 
@@ -100,7 +100,7 @@ hr {
 }
 #filter {
 ; width      : 177px
-; color      : #666
+; color      : #888
 ; text-align : right
 ; top        : 141px
 ; height     : 100%
@@ -119,29 +119,29 @@ hr {
 ; font-style : italic
 }
 #filter li:hover a {
-; color  : white
+; color  : black
 }
 #filter li.active a {
-; color       : #bbb
+; color       : #555
 ; font-weight : bold
 }
 #filter li.active:hover a {
-; color : white
+; color : black
 }
 #filter li:first-child {
 ; overflow : visible
 }
 #filter li:first-child input {
-; background    : #000
+; background    : white
 ; float         : left
 ; text-align    : right
 ; width         : 155px
 ; border        : 0
-; border-bottom : 1px solid #111
+; border-bottom : 1px solid #ddd
 ; padding       : 6px 0 3px
 ; margin-bottom : 3px
 ; height        : 21px
-; color         : #ddd
+; color         : #333
 ; outline       : 0
 }
 
@@ -160,7 +160,7 @@ hr {
 #trunk .article .title img {
 ; width         : 70%
 ; margin        : 5px 0 -40px 0
-; border-bottom : 1px solid #111
+; border-bottom : 1px solid #aaa
 }
 #trunk .article .title h1, #trunk .headline .title h1 {
 ; padding     : 60px 20px 0px 0
@@ -169,10 +169,10 @@ hr {
 ; width       : 70%
 }
 #trunk .article .title a, #trunk .headline .title a {
-; color : #ddd
+; color : #333
 }
 #trunk .article .title h1 a:hover, #trunk .headline .title h1 a:hover {
-; color : white
+; color : black
 }
 #trunk .article .date, #trunk .headline .date {
 ; right          : 0
@@ -180,7 +180,7 @@ hr {
 ; margin         : 0
 ; padding        : 90px 20px 0 0
 ; width          : 38%
-; color          : #555
+; color          : #777
 ; text-align     : right
 ; font-size      : 15px
 ; letter-spacing : 1px
@@ -190,16 +190,16 @@ hr {
 ; margin-left : 5px
 }
 #trunk .article .date *:hover, #trunk .headline .date *:hover {
-; color : white
+; color : black
 }
 #trunk .article .date .day, #trunk .article .date .year {
 ; font-weight : bold
 }
 #trunk .article .date .day:hover, #trunk .article .date .month:hover, #trunk .article .date .year:hover {
-; color : white
+; color : black
 }
 #trunk .article .content {
-; color      : #ddd
+; color      : #555
 ; width      : 77%
 ; max-width  : 555px
 ; padding    : 0px 20px 30px 0
@@ -223,7 +223,7 @@ hr {
 ; margin : 16px 0
 }
 #trunk .article .content a:hover {
-; color : white
+; color : black
 }
 #trunk .article .content em {
 ; font-style : italic
@@ -231,12 +231,12 @@ hr {
 #trunk .article .content code {
 ; font-size     : 13px
 ; color         : #888
-; background    : black
+; background    : white
 ; padding       : 3px
-; border        : 1px solid #171717
-; border-top    : 1px solid #111111
-; border-bottom : 1px solid #222222
-; box-shadow    : 0 0 3px #070707
+; border        : 1px solid #E7E7E7
+; border-top    : 1px solid #EEE
+; border-bottom : 1px solid #DDD
+; box-shadow    : 0 0 3px #E7E7E7
 }
 #trunk .article .content pre {
 ; font-size             : 13px
@@ -265,11 +265,11 @@ hr {
 #trunk .article .content blockquote {
 ; font-style : italic
 ; padding    : 10px 10px 10px 15px
-; background : black
+; background : white
 ; color      : #777
 ; font-size  : 16px
-; box-shadow : inset 10px 0 30px #0A0A0A
-             , inset 30px 0 100px #070707
+; box-shadow : inset 10px 0 30px #EAEAEA
+             , inset 30px 0 100px #E7E7E7
 }
 #trunk .article .content ul {
 ; margin : 8px 0 4px 0
@@ -277,14 +277,14 @@ hr {
 #trunk .article .content li {
 ; margin           : 0 0 8px 20px
 ; padding-left     : 4px
-; list-style-image : url(/images/whitebullets.png)
+; list-style-image : url(/images/bullets.png)
 }
 #trunk .article .content p:last-child {
 ; margin : 0
 }
 #trunk .article .content img {
 ; max-width : 77%
-; border    : 1px solid #111
+; border    : 1px solid #aaa
 }
 #trunk .article .content small.imginfo {
 ; text-align  : center
@@ -295,7 +295,7 @@ hr {
 ; margin : 10px 0
 }
 #trunk .article .content table tr {
-; border-bottom : 1px solid #111
+; border-bottom : 1px solid #ddd
 }
 #trunk .article .content table td {
 ; padding : 10px 5px
@@ -310,10 +310,10 @@ hr {
 ; font-type : italic
 }
 #trunk .article .share {
-; color         : white
+; color         : #333
 ; padding       : 0 0px
-; border-top    : 1px solid #0b0b0b
-; border-bottom : 1px solid #090909
+; border-top    : 1px solid #eee
+; border-bottom : 1px solid #eee
 ; font-size     : 18px
 }
 #trunk .article .share * {
