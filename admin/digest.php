@@ -121,7 +121,7 @@ foreach ($glob as $k => $filename) {
 
   // Appending the acknowledgements and share buttons
   $post_url   = urlencode('http://sadasant.com/' . $urlname);
-  $post_title = urlencode('"' . $data->title . '" by @sadasant');
+  $post_title = urlencode('"' . $data->title . '" by @sadasant ('.$date[2].'/'.$date[1].'/'.$date[0].')');
   $content .= '<div class="by">';
   $content .=   '<a href="http://sadasant.com/license">by-nc-sa</a> Daniel Rodríguez.';
   $content .= '</div>';
