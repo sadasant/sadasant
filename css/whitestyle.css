@@ -261,13 +261,15 @@ hr {
 ; background : none
 }
 #trunk .article .content blockquote {
-; font-style : italic
 ; padding    : 10px 10px 10px 15px
 ; background : white
 ; color      : #777
 ; font-size  : 16px
 ; box-shadow : inset 10px 0 30px #EAEAEA
              , inset 30px 0 100px #E7E7E7
+}
+#trunk .article .content blockquote a {
+; text-decoration : underline
 }
 #trunk .article .content ul {
 ; margin : 8px 0 4px 0
