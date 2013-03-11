@@ -262,11 +262,9 @@ hr {
 }
 #trunk .article .content blockquote {
 ; padding    : 10px 10px 10px 15px
-; background : black
+; background : #070707
 ; color      : #777
 ; font-size  : 16px
-; box-shadow : inset 10px 0 30px #0A0A0A
-             , inset 30px 0 100px #070707
 }
 #trunk .article .content blockquote a {
 ; text-decoration : underline
