@@ -46,7 +46,7 @@
       , data
       , index = 0
     for (; $item = $items[index++] ;) {
-      if (Shade.hasClass(class_active, $item)) {
+      if (Shade.hasClass($item, class_active)) {
         active_tags[active_tags.length] = $item.firstChild.innerHTML
       }
     }
@@ -80,7 +80,7 @@
       if (started) {
         // Remove unactive tags
         for (tag in all_tags) {
-          if (!Shade.hasClass(class_active, all_tags[tag])) {
+          if (!Shade.hasClass(all_tags[tag], class_active)) {
             $filter.removeChild(all_tags[tag])
             ;delete all_tags[tag]
           }
@@ -93,7 +93,7 @@
     if (!started) {
       started = true
       for (; $item = $items[index++] ;) {
-        if (!Shade.hasClass(class_active, $item)) {
+        if (!Shade.hasClass($item, class_active)) {
           $filter.removeChild($item)
         } else {
           all_tags[$item.firstChild.innerHTML] = $item
@@ -119,7 +119,7 @@
         tags = JSON.parse(data)
         if (tags.length) {
           for (tag in all_tags) {
-            if (!Shade.hasClass(class_active, all_tags[tag]) && !~tags.indexOf(tag)) {
+            if (!Shade.hasClass(all_tags[tag], class_active) && !~tags.indexOf(tag)) {
               $filter.removeChild(all_tags[tag])
               ;delete all_tags[tag]
             }
@@ -142,10 +142,10 @@
 
 
   function activateTag() {
-    if (Shade.hasClass(class_active, this)) {
-      Shade.removeClass(class_active, this)
+    if (Shade.hasClass(this, class_active)) {
+      Shade.removeClass(this, class_active)
     } else {
-      Shade.addClass(class_active, this)
+      Shade.addClass(this, class_active)
     }
     resetPosts()
   }
@@ -214,12 +214,12 @@
       for (; $item = $items[index++] ;) {
         tag = $item.firstChild.innerHTML
         if (~active_tags.indexOf(tag)) {
-          if (!Shade.hasClass(class_active, $item)) {
-            Shade.addClass(class_active, $item)
+          if (!Shade.hasClass($item, class_active)) {
+            Shade.addClass($item, class_active)
           }
         } else {
-          if (Shade.hasClass(class_active, $item)) {
-            Shade.removeClass(class_active, $item)
+          if (Shade.hasClass($item, class_active)) {
+            Shade.removeClass($item, class_active)
           }
         }
       }
@@ -237,7 +237,7 @@
       , index = 0
     while ($item = $item.nextSibling) {
       if ($item.tagName === 'LI') {
-        if (Shade.hasClass(class_active, $item)) {
+        if (Shade.hasClass($item, class_active)) {
           $actives[$actives.length] = $item
         } else {
           if (!$first_next) {
@@ -266,7 +266,7 @@
     function addPost() {
       if (post = posts[index++]) {
         div = D.createElement('div')
-        Shade.addClass(className, div)
+        Shade.addClass(div, className)
         div.innerHTML = post
         $trunk.appendChild(div)
         setTimeout(addPost, 100)
