@@ -124,28 +124,24 @@
         _node = []
         for (; node[index]; index += one) {
           found = find(tail, node[index])
+          if (found == U) {
+            continue
+          }
           if (found.length) {
             _node = _node.concat(found)
           } else {
-            if (found.name !== U) {
-              _node[_node.length] = found
-            }
+            _node[_node.length] = found
           }
         }
-        index = 0
-        node = [];
-        for (; _node[index]; index += one) {
-          node = node.concat(_node[index])
-        }
-        return node
+        return _node.length > 1 ? _node : _node[0]
       } else {
         return find(tail, node)
       }
     } else {
-      if (node.length) {
-        return node.length === one ? node[0] : _node.slice.call(node)
+      if (node.length === U) {
+        return node
       } else {
-        return node.length === U ? node : U
+        return node.length > 1 ? _node.slice.call(node) : node[0]
       }
     }
   }
