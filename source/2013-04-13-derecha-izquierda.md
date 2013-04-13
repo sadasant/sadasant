@@ -28,8 +28,9 @@ se les olvida que ellos también son ciegos al futuro. Por eso es que
 la educación crece más en países con estudios subsidiados (e.g.:
 Finlandia), pero ellos tienen como característica una cultura de
 principios de cooperación y trabajo muy sólida, lo que garantiza que
-esas medidas funcionen.  Allá, no hay futuro ni estudios si tu
-población no puede cumplir sus necesidades básicas, y es razonable.
+esas medidas funcionen.  Allá, [no hay futuro ni estudios si tu
+población no puede cumplir sus necesidades básicas](http://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow),
+y es razonable.
 
 El capitalismo es competencia siempre y cuando entendamos que viene de
 una cultura post-guerras y colapsos en las que los trabajos escaseaban
@@ -119,6 +120,7 @@ específicamente de las siguientes:
 
 -   <https://www.facebook.com/sadasant/posts/10152716247010361>
 -   <https://www.facebook.com/alexstefan92/posts/10151544260587236>
+-   <https://www.facebook.com/sadasant/posts/10152719831920361>
 
 <br>
 Muchas gracias a [Stefan](https://twitter.com/alexstefan92) por
