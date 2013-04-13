@@ -120,5 +120,7 @@ específicamente de las siguientes:
 -   <https://www.facebook.com/sadasant/posts/10152716247010361>
 -   <https://www.facebook.com/alexstefan92/posts/10151544260587236>
 
-Muchas gracias por leerlo, un gran abrazo.
+Muchas gracias a [Stefan](https://twitter.com/alexstefan92) por
+animarme a publicarlo y muchísimas gracias a ustedes por leerlo, un
+gran abrazo.
 
