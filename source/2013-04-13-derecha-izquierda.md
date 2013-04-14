@@ -39,9 +39,9 @@ su inherente competencia viene de una cultura post-guerras y colapsos,
 en la que los trabajos escaseaban y sobrevivía el que demostraba ser
 más exclusivo. La industrialización de la producción y la defensa de
 la propiedad privada se extendió hasta formularse luchas corporativas,
-que alcanzaron poderes mundiales, mientras intentaban devorarse para
-evitar futuros riesgos (pérdida de clientes, etc).  Cuando ese
-comportamiento llega a representar un abuso con quienes intentan
+que alcanzaron poderes mundiales, hasta intentar devorarse unos a
+otros, para evitar futuros riesgos (pérdida de clientes, etc). Cuando
+ese comportamiento llega a representar un abuso con quienes intentan
 surgir, empezamos a preocuparnos, y ya que a muchos les preocupa, es
 evidente que eso es lo que está sucediendo. ¿Qué lo fomenta? yo creo
 que, lo que hace que todo proyecto se vuelva dañino, es la incapacidad
