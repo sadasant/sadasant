@@ -113,7 +113,7 @@ recibidos:
     antecedentes intelectuales, buscar el principio de los orígenes de
     cada palabra; en fin... hay mucho en qué concentrarse con respecto
     a nuestro país como para compararlo con otros países.  
-    — Cesar Felipe Malpica Garcia Acertado.
+    — Cesar Felipe Malpica Garcia.
 
 <div style="text-align:center">
 ∙∙∙
