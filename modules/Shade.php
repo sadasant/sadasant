@@ -46,7 +46,7 @@ class Shade {
 
     // The function exists in our functions file?
     if (strpos($this->FUNS, 'function ' . $req['page']) !== false) {
-      return $req['page']($this, $req);
+      return call_user_func($req['page'], $this, $req);
     }
     // Check if this is a blog post,
     // for which it must have a syntax like this: 0000/00/00/some-thing.html
