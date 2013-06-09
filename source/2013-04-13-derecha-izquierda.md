@@ -6,7 +6,6 @@
       , "society"
       , "spanish"
       , "thoughts"
- 
       ]
     , "title" : "Izquierda, derecha, izquierda, derecha."
     }
