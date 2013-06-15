@@ -161,7 +161,7 @@ function postsPerDate($Shade, $req) {
   $path  = str_replace('/', '-', $req['path']);
   $glob  = glob('posts/' . $path . '*');
   if ($glob == false) {
-    return forbidden($Shade);
+    return $Shade->forbidden();
   }
   rsort($glob);
   $posts      = array();
