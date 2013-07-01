@@ -45,6 +45,7 @@ $B = !$_SESSION['black'];
 			<li><a href="https://twitter.com/sadasant" target="_blank">Twitter</a></li>
 			<li><a href="https://plus.google.com/111462690043808716220/" target="_blank">G+</a></li>
 			<li><a href="https://facebook.com/sadasant" target="_blank">Facebook</a></li>
+			<li><a href="http://www.linkedin.com/in/sadasant" target="_blank">LinkedIn</a></li>
 		</ul>
 	</div>
 
