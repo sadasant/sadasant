@@ -66,7 +66,7 @@ mayoría se deja llevar por los beneficios a corto plazo.
 
 Desde hace un tiempo vengo pensando que los que defienden ideologías políticas
 centrales son los más educados de la población, es más, me atrevería a decir
-que no solo tienen suficientes recursos como para pagar todas las necesidades
+que no sólo tienen suficientes recursos como para pagar todas las necesidades
 básicas más la educación, sino que tienen como para estudiar más allá de su
 profesión y pensar en comprender otros mundos, y para esto hace falta mucho más
 que dinero, se necesitan buenos ejemplos, buenos padres y educadores, es decir
@@ -90,7 +90,7 @@ piel, somos parte de la naturaleza, nunca distintos de ella.
 Uno de los conceptos que se han (a)grabado en la percepción popular es el de
 "adaptación" y "evolución", la gente cree que la vida cambia y evoluciona, tipo
 _pokémon_, cuando no es así, los cambios son mínimos, ocurren en su mayoría
-durante la gestación, durante la multiplicación de células, y solo se notan
+durante la gestación, durante la multiplicación de células, y sólo se notan
 porque los que no tienen esos cambios, mueren.
 
 La naturaleza tiene más fácil acabar con la vida que construirla, y
