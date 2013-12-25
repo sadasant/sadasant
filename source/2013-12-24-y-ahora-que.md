@@ -4,14 +4,14 @@
       "title" : "¿Y ahora qué?"
     }
 
----
+--- 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/LeAAUPPkZI0" frameborder="0" allowfullscreen></iframe>
 
 Ya van varios meses buscando qué decir.
 
-Ha sido interesante, descubrirme detallista y proseguir por senderos
-estrechos, de mi propia consciencia. Hace casi un año preví que me
-sumergiría, y así hice. No lo noto en el día a día, pero sí en cómo
-confronto los problemas, en su mayoría.
+Hace casi un año preví que me sumergiría, y así hice. No lo noto en el día a
+día, pero sí en cómo confronto los problemas, en su mayoría.
 
 Por ejemplo, he tenido ciertas vicisitudes por andar pensando en lo
 mínimo y no querer ver a gran escala; siendo esto, a mi razonamiento,
@@ -53,9 +53,8 @@ convertidos en lo mejor que ellos puedan llegar a ser. Se trata de
 presentar alternativas bien precisadas, dejarlas en la mesa y partir,
 sin esperar recibir noticias. ¡Por lo general funciona!
 
-De esa manera, sin querer, he cumplido con varias metas, estoy trabajando
-en proyectos con los que soñaba hace años, aprendiendo temas que veía
-con deseo y durmiendo más seguido. Los preparativos para cerrar la
-etapa universitaria están listos. Ya empezaron a entrar nuevos
-vientos, corrientes de otras costas que traen consigo mapas de
-tesoros, escritos en sus idiomas. Me siento en vísperas de aventura. 
+De esa manera he cumplido con varias metas, estoy trabajando en proyectos con
+los que soñaba hace años, aprendiendo temas que veía con deseo y durmiendo más
+seguido. Los preparativos para cerrar la etapa universitaria están listos. Ya
+empezaron a entrar nuevos vientos, corrientes de otras costas que traen consigo
+mapas de tesoros, escritos en sus idiomas. Me siento en vísperas de aventura.
