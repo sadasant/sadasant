@@ -6,7 +6,8 @@
 
 --- 
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/LeAAUPPkZI0" frameborder="0" allowfullscreen></iframe>
+> Recomendación musical:  
+> [The River X - Ketil Bjørnstad & David Darling](http://www.youtube.com/watch?v=LeAAUPPkZI0).
 
 Ya van varios meses buscando qué decir.
 
