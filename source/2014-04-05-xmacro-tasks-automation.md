@@ -134,9 +134,8 @@ Let's define an use-case:
 >   I, as an user, want to be able to open a new tab in tmux, and to cd to the
 >   directory in which my current active file in vim is located.
 
-To follow the process as I'm going to do, you'll need to have changed the
-behavior of tmux to work like vim, to do so, you'll need to add the following
-lines to your `.tmux.conf`:
+To follow the process with me, you'll need to have changed the behavior of tmux
+to work like vim, to do so, add the following lines to your `.tmux.conf`:
 
     # vim keys
     set-window-option -g mode-keys vi
