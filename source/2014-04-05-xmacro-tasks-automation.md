@@ -58,7 +58,7 @@ again...
 
 For many years, I've encountered persons that have asked me if I knew a way of
 scripting tmux to open several terminals and load your programs, or if there
-was a way of makign macros with tmux, but I was unable to answer properly, I
+was a way of making macros with tmux, but I was unable to answer properly, I
 said: well, yes, in principle you can start tmux's server and tell it to load
 several applications, but it's not an automatical process, I mean, you can't
 just record your actions to play them again, you have to make the script and
