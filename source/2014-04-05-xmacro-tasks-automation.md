@@ -70,9 +70,6 @@ Until now, ladies and gentlemen I present you: _xmacro_.
 
 ### [XMacro](http://xmacro.sourceforge.net)
 
-I know, I know, it's now new, but I didn't know about it and I found a really
-nice way to work with it.
-
 For Arch Linux users, xmacro is available in the AUR: <https://aur.archlinux.org/packages/xmacro>
 
 Essentially, xmacro records your pressed keys and saves them to a file. To run
