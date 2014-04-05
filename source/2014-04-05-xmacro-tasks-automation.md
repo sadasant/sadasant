@@ -246,3 +246,5 @@ one and it will run flawlessly.
 Done, if you need any help please ping me
 @[sadasant](https://twitter.com/sadasant). (Just request to follow, if I forget
 to accept, send me an email).
+
+_// I made the gifs with [tty2gif](https://github.com/z24/tty2gif)_
