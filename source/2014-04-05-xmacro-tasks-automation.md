@@ -16,7 +16,7 @@
 
 So it's time to make a more technical post.
 
-If you're looking for `tmux` macros and you use `Xorg`, you need this tip.
+If you're looking for `tmux` macros and you use `Xorg`, you will need this tip.
 
 ### TL;DR
 
@@ -27,22 +27,21 @@ macros for any window manager using `Xorg`, easy to use from vim or tmux.
 ### The story
 
 I've been playing with linux for many years now, like any typical user, I
-started with user friendly distributions, firstly Mandriva, then Ubuntu, then
+started with user friendly distributions, first Mandriva, then Ubuntu, then
 Mandriva again, then OpenSUSE, CentOS, Fedora, Arch Linux and now Manjaro,
-which is built on top of Arch and has a ready to use Net Edition
-that is just what I was looking for (check it out [here](http://manjaro.org/get-manjaro/)).
+which is built on top of Arch and has a ready to use Net Edition. Just what I was looking for (check it out [here](http://manjaro.org/get-manjaro/)).
 
-So, while you're in Linux and you get like excited about being able to be very
+So, while you're in Linux and you get all excited about being able to be very
 exquisit with which applications you are going to use (in matter of performance
 and low consumption), you'll end up using the terminal **a lot**. That's what I
-did, firstly using _alsamixer_ to control the sound, then _nano_ to edit files,
+did, first using _alsamixer_ to control the sound, then _nano_ to edit files,
 then _vim_, as well as music players like _mocp_, IRC clients like _irssi_,
 email clients like _mutt_, then you begin using _xterm_ instead of any other
 fancy gtk terms, then you switch from _Gnome_ to _OpenBox_, to _DWM_, and you
 stay with it, because nothing is going to be so fast and simple. Then maybe
 you're too lazy to set up a background image each time you're setting up a
-machine, or like me you get so uncomfortable about which image to select that
-you prefer to have none (like me), so you ended up just using conky to give it
+machine, or like me, you get so uncomfortable about which image to select that
+you prefer to have none, so you ended up just using conky to give it
 a fancy style, but keeping things minimal, etc etc... well, the point is that
 you start to use the terminal a lot. Fine.
 
@@ -147,7 +146,7 @@ lines to your `.tmux.conf`:
     bind-key k select-pane -U
     bind-key l select-pane -R
 
-Also, I'm using the default `<Ctrl+b>` behavior of tmux, so make sure you
+I'm also using the default `<Ctrl+b>` behavior of tmux, so make sure you
 **DON'T** have lines like the followings in your `~/.tmux.conf`:
 
     unbind C-b
