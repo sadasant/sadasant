@@ -174,6 +174,8 @@ Finally press `<Ctrl+c>` to get out of tmux's special behavior.
 Now, we press `<Ctrl+b>c` to open a new tab, in which we write `cd ` and we
 paste tmux's buffer with `<Ctrl+]>`. That way we complete the use-case.
 
+[![Manually opening a new tab in tmux, and changing to the directory in which my current active file in vim is located.](http://i.imgur.com/DXtHPSo.gif)](http://i.imgur.com/DXtHPSo.gif)
+
 As you see, it's a complex process, even if you have done it so many times you
 can do it without thinking, it requires lots of key presses and it's
 error-prone, because you can miss keys and end up doing something else.
