@@ -18,13 +18,13 @@ So it's time to make a more technical post.
 
 If you're looking for `tmux` macros and you use `Xorg`, you will need this tip.
 
-### TL;DR
+## TL;DR
 
 Install `xmacro`, record some commonly made actions, edit the recorded file to
 polish times and actions, make a script to reproduce them again and voilà,
 macros for any window manager using `Xorg`, easy to use from vim or tmux.
 
-### The story
+## The story
 
 I've been playing with linux for many years now, like any typical user, I
 started with user friendly distributions, first Mandriva, then Ubuntu, then
@@ -68,7 +68,7 @@ doing things by hand and that's it.
 
 Until now, ladies and gentlemen I present you: _xmacro_.
 
-### [XMacro](http://xmacro.sourceforge.net)
+## [XMacro](http://xmacro.sourceforge.net)
 
 For Arch Linux users, xmacro is available in the AUR: <https://aur.archlinux.org/packages/xmacro>
 
@@ -127,7 +127,7 @@ for `KeyStrPress 3` and `KeyStrRelease 3` respectively.
 Fair enough, you now know a way of recording and replaying macros in X, and
 it's also very easy to edit. Now let's make it more practical.
 
-### A use-case
+## A use-case
 
 Let's define a use-case:
 
@@ -182,7 +182,7 @@ error-prone, because you can miss keys and end up doing something else.
 
 So let's automate it!
 
-### Automating the use-case
+## Automating the use-case
 
 First, let's make a directory at home to store our macros, let's call it
 `~/.xmacros`.
