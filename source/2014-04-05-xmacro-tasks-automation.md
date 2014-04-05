@@ -155,9 +155,9 @@ Also, I'm using the default `<Ctrl+b>` behavior of tmux, so make sure you
     bind C-a send-prefix
 
 So, how would you answer the use-case we stated? you could, for example, expand
-your current path with vim, typing `:!# %:h` and then pressing tab:
+your current path with vim, typing `:!# %:p:h` and then pressing tab:
 
-    :!# %:h
+    :!# %:p:h
     <Tab>
     :!# /home/youruser/your/path/
     <Smile>
