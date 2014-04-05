@@ -127,11 +127,11 @@ for `KeyStrPress 3` and `KeyStrRelease 3` respectively.
 Fair enough, you now know a way of recording and replaying macros in X, and
 it's also very easy to edit. Now let's make it more practical.
 
-## A use-case
+## An use-case
 
-Let's define a use-case:
+Let's define an use-case:
 
->   I, as a user, want to be able to open a new tab in tmux, and to cd to the
+>   I, as an user, want to be able to open a new tab in tmux, and to cd to the
 >   directory in which my current active file in vim is located.
 
 To follow the process as I'm going to do, you'll need to have changed the
