@@ -205,8 +205,8 @@ just remove some of the first lines, they look like this:
 (That was how I switch desktops).
 
 You can also eliminate all the lines with `Delay`. Make sure it is exactly what
-you want to go to the next steps. The one that I'm using is the following:
-<https://gist.github.com/9997147>
+you want before going to the next steps. The one that I'm using is the
+following: <https://gist.github.com/9997147>
 
 If you try calling `xmacroplay` from vim, make sure to call it as follows:
 
