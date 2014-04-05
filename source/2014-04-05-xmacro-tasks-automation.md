@@ -29,7 +29,8 @@ macros for any window manager using `Xorg`, easy to use from vim or tmux.
 I've been playing with linux for many years now, like any typical user, I
 started with user friendly distributions, first Mandriva, then Ubuntu, then
 Mandriva again, then OpenSUSE, CentOS, Fedora, Arch Linux and now Manjaro,
-which is built on top of Arch and has a ready to use Net Edition. Just what I was looking for (check it out [here](http://manjaro.org/get-manjaro/)).
+which is built on top of Arch and has a ready to use Net Edition. Just what I
+was looking for (check it out [here](http://manjaro.org/get-manjaro/)).
 
 So, while you're in Linux and you get all excited about being able to be very
 exquisit with which applications you are going to use (in matter of performance
@@ -41,9 +42,9 @@ fancy gtk terms, then you switch from _Gnome_ to _OpenBox_, to _DWM_, and you
 stay with it, because nothing is going to be so fast and simple. Then maybe
 you're too lazy to set up a background image each time you're setting up a
 machine, or like me, you get so uncomfortable about which image to select that
-you prefer to have none, so you ended up just using conky to give it
-a fancy style, but keeping things minimal, etc etc... well, the point is that
-you start to use the terminal a lot. Fine.
+you prefer to have none, so you ended up just using conky to give it a fancy
+style, but keeping things minimal, etc etc... well, the point is that you start
+to use the terminal a lot. Fine.
 
 [![My current desktop.](http://i.imgur.com/D4sEE0Q.png)](http://i.imgur.com/D4sEE0Q.png)
 
