@@ -241,6 +241,8 @@ Ok, so we're done! Now just press `<Tab>m`, the command will appear in vim,
 then you'll be able to press tab again and loop over all your xmacros! Click on
 one and it will run flawlessly.
 
+[![Automatically opening a new tab in tmux, and changing to the directory in which my current active file in vim is located.](http://i.imgur.com/hjPxq40.gif)](http://i.imgur.com/hjPxq40.gif)
+
 Done, if you need any help please ping me
 @[sadasant](https://twitter.com/sadasant). (Just request to follow, if I forget
 to accept, send me an email).
