@@ -243,8 +243,10 @@ one and it will run flawlessly.
 
 [![Automatically opening a new tab in tmux, and changing to the directory in which my current active file in vim is located.](http://i.imgur.com/hjPxq40.gif)](http://i.imgur.com/hjPxq40.gif)
 
-Done, if you need any help please ping me
-@[sadasant](https://twitter.com/sadasant). (Just request to follow, if I forget
-to accept, send me an email).
+Done, now it's time to get creative and build your own macros, automate your
+workflow to speed up your daily life!
+
+If you need any help please ping me @[sadasant](https://twitter.com/sadasant).
+(Just request to follow, if I forget to accept, send me an email).
 
 _// I made the gifs with [tty2gif](https://github.com/z24/tty2gif)_
