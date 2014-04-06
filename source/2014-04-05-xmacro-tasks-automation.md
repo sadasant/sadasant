@@ -220,9 +220,9 @@ the command is in double quotes, imagine trying to call another of your macros,
 you'll need to write it manually instead of being able to press tab until you
 reach your preferred.
 
-Instead, we could make a bash script and add it to your `$PATH`, that way
-you'll be able to call it from vim and complete the paths with `<Tab>`, just
-like we completed `%:h`.
+An alternative could be to make a bash script and add it to your `$PATH`, that
+way you'll be able to call it from vim and complete the paths with `<Tab>`,
+just like we completed `%:h`.
 
 This bash script is very simple, here's my approach, I call it `run_xmacro`:
 
