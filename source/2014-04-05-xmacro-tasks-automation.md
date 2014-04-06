@@ -222,7 +222,7 @@ reach your preferred.
 
 An alternative could be to make a bash script and add it to your `$PATH`, that
 way you'll be able to call it from vim and complete the paths with `<Tab>`,
-just like we completed `%:h`.
+just like we completed `%:p:h`.
 
 This bash script is very simple, here's my approach, I call it `run_xmacro`:
 
