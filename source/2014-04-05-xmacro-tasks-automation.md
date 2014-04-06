@@ -213,7 +213,7 @@ If you try calling `xmacroplay` from vim, make sure to call it as follows:
 
     :exec "!xmacroplay \"$DISPLAY\" < ~/.xmacros/vim_tmux_cd_newtab.macro &"
 
-Otherwise it will probably crash. (the key points are `"$DISPLAY"` and the last `&`).
+(the key points are `"$DISPLAY"` and the last `&`).
 
 That's a way to do it. You'll probably prefer to set it in a mapping, but as
 the command is in double quotes, imagine trying to call another of your macros,
