@@ -60,11 +60,11 @@ For many years, I've encountered persons that asked me if I knew a way of
 scripting tmux to open several terminals and load your programs, or if there
 was a way of making macros with tmux, but I was unable to answer properly, I
 said: well, yes, in principle you can start tmux's server and tell it to load
-several applications, but it's not an automatical process, I mean, you can't
-just record your actions to play them again, you have to make the script and
-change it as you want new things to happen. I never explored the possibilities
-of that approach, but it looks so cumbersome that everyone I know ended up just
-doing things by hand and that's it.
+several applications, but it's not an automatic process, I mean, you can't just
+record your actions to play them again, you have to make the script and change
+it as you want new things to happen. I never explored the possibilities of that
+approach, but it looks so cumbersome that everyone I know ended up just doing
+things by hand and that's it.
 
 Until now, ladies and gentlemen I present you: _xmacro_.
 
@@ -136,7 +136,7 @@ Let's define an use-case:
 >   directory in which my current active file in vim is located.
 
 To follow the process with me, you'll need to have changed the behavior of tmux
-to work like vim, so plaase add the following lines to your `.tmux.conf`:
+to work like vim, so please add the following lines to your `.tmux.conf`:
 
     # vim keys
     set-window-option -g mode-keys vi
