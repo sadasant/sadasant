@@ -26,7 +26,7 @@ macros for any window manager using `Xorg`, easy to use from vim or tmux.
 
 ## The story
 
-I've been playing with linux for many years now, like any typical user, I
+I've been playing with linux for many years now. Like any typical user, I
 started with user friendly distributions, first Mandriva, then Ubuntu, then
 Mandriva again, then OpenSUSE, CentOS, Fedora, Arch Linux and now Manjaro,
 which is built on top of Arch and has a ready to use Net Edition. Just what I
@@ -37,26 +37,26 @@ exquisit with which applications you are going to use (in matter of performance
 and low consumption), you'll end up using the terminal **a lot**. That's what I
 did, first using _alsamixer_ to control the sound, then _nano_ to edit files,
 then _vim_, as well as music players like _mocp_, IRC clients like _irssi_,
-email clients like _mutt_, then you begin using _xterm_ instead of any other
-fancy gtk terms, then you switch from _Gnome_ to _OpenBox_, to _DWM_, and you
-stay with it, because nothing is going to be so fast and simple. Then maybe
-you're too lazy to set up a background image each time you're setting up a
-machine, or like me, you get so uncomfortable about which image to select that
-you prefer to have none, so you ended up just using conky to give it a fancy
-style, but keeping things minimal, etc etc... well, the point is that you start
-to use the terminal a lot. Fine.
+email clients like _mutt_, then you might begin using _xterm_ instead of any
+other fancy gtk terms, also you might switch from _Gnome_ to _OpenBox_, and
+later to _DWM_, which could end up being your favorite one, because nothing is
+going to be so fast and simple. Then maybe you're too lazy to set up a
+background image each time you're setting up a machine, or like me, you get so
+uncomfortable selecting an image that you prefer to have none, and finally you
+end just using conky to give it a fancy style, but keeping things minimal, etc
+etc...  well, the point is that you start to use the terminal a lot. Fine.
 
 [![My current desktop.](http://i.imgur.com/D4sEE0Q.png)](http://i.imgur.com/D4sEE0Q.png)
 
-Now, every time you open your computer to start working for a project, you
-start several terminals, maybe using TMUX, in some of them you run some
+Now, every time you open your computer to start working with a project, you
+open several terminals, maybe using TMUX, in some of them you run several
 applications, like databases, web servers, or your editor; you load your vim
-sessions to open all your needed files and then you start working. You do this
-some days and eventually you begin to think you want to do that automatically
-because it's tedious to be opening the same stuff again and again and again and
-again...
+sessions to open all your needed files and then you start working, you do this
+some days and you feel fine, but eventually you begin to think that maybe you
+could be doing that automatically, because it's tedious to be opening the
+same stuff again and again and again and again...
 
-For many years, I've encountered persons that have asked me if I knew a way of
+For many years, I've encountered persons that asked me if I knew a way of
 scripting tmux to open several terminals and load your programs, or if there
 was a way of making macros with tmux, but I was unable to answer properly, I
 said: well, yes, in principle you can start tmux's server and tell it to load
@@ -115,17 +115,18 @@ there):
     Delay 79
     KeyStrPress c
 
-In the previous code, you see `MotionNotify`, which indicates the position of
-the cursor, then I pressed `Alt_L`, waited 147 milliseconds, then pressed `2`,
-then released `2`, then released `Alt_L` (`Alt_L+2` sends you to the second
-desktop in DWM). The rest of the file consist of the same type of actions. As
-you see is easy to edit (just remember to keep it clean of empty lines, empty
-lines produce errors). If you want to reproduce that again, but going to the
-third desktop instead, yo could change `KeyStrPress 2` and `KeyStrRelease 2`
-for `KeyStrPress 3` and `KeyStrRelease 3` respectively.
+In the previous code, first you see `MotionNotify`, which indicates the
+position of the cursor, then you can see that I pressed `Alt_L`, waited 147
+milliseconds, then pressed `2`, then released `2`, then released `Alt_L`
+(`Alt_L+2` sends you to the second desktop in DWM). The rest of the file
+consists of the same type of actions. It's fairly easy to edit (just remember
+to keep it clean of empty lines, empty lines produce errors). If you want to
+reproduce that again, but going to the third desktop instead, yo could change
+`KeyStrPress 2` and `KeyStrRelease 2` for `KeyStrPress 3` and `KeyStrRelease 3`
+respectively.
 
-Fair enough, you now know a way of recording and replaying macros in X, and
-it's also very easy to edit. Now let's make it more practical.
+Fair enough, now you know a way of recording and replaying macros in X, and
+it's also very easy to customize. Now let's make it more practical.
 
 ## An use-case
 
@@ -135,7 +136,7 @@ Let's define an use-case:
 >   directory in which my current active file in vim is located.
 
 To follow the process with me, you'll need to have changed the behavior of tmux
-to work like vim, to do so, add the following lines to your `.tmux.conf`:
+to work like vim, so plaase add the following lines to your `.tmux.conf`:
 
     # vim keys
     set-window-option -g mode-keys vi
@@ -162,8 +163,8 @@ your current path with vim, typing `:!# %:p:h` and then pressing tab:
     <Smile>
 
 Then, as the use-case states, we're in tmux, so we can select that text
-pressing `<Ctrl+b>[`, it will stop rendering the terminal and let you
-move/select/etc over the rendered text, but starting from the point your cursor
+pressing `<Ctrl+b>[`, it will stop rendering the terminal, and it will let you
+move over or select the rendered text, but starting from the point your cursor
 was before pressing those keys. So, as we set it to work like vim, now we can
 press `0` to go to the beginning of the line, then press `4l` to move to the
 beginning of the path, then press `v` to start the selection, then press `$` to
@@ -188,14 +189,14 @@ First, let's make a directory at home to store our macros, let's call it
 
 An easy (but wrong) way of doing this automation is to call `xmacrorec2 >
 ~/.xmacros/vim_tmux_cd_newtab.macro` (you can change the file name if you want)
-from another window (or terminal), then switch to the one where you have tmux
-and vim, then do the process above, then we press the quit-key. Now, each time
-you want to do it, you'll have to switch to another window/terminal and run
-`xmacroplay` on it. This is not the preferred way, right? what if we make it
-possible from vim directly? Let's try to run this from vim.
+from another window (or terminal), then to switch to the one where you have
+tmux and vim, then to do the process above, and end the recording pressing the
+quit-key. Now, each time you want to do it, you'll have to switch to another
+window/terminal and run `xmacroplay` on it. This is not the preferred way,
+right? what if we make it possible from vim directly? Let's try it.
 
-First, let's edit `vim_tmux_cd_newtab.macro` to remove the window switching,
-just remove some of the first lines, they look like this:
+Let's edit `vim_tmux_cd_newtab.macro` to remove the window switching, just
+remove some of the first lines, they look like this:
 
     KeyStrPress Alt_L
     KeyStrPress 1
@@ -214,8 +215,8 @@ If you try calling `xmacroplay` from vim, make sure to call it as follows:
 
 Otherwise it will probably crash. (the key points are `"$DISPLAY"` and the last `&`).
 
-That is a way, you'll probably prefer to set it in a mapping, but as the
-command is in double quotes, imagine trying to call another of your macros,
+That's a way to do it. You'll probably prefer to set it in a mapping, but as
+the command is in double quotes, imagine trying to call another of your macros,
 you'll need to write it manually instead of being able to press tab until you
 reach your preferred.
 
@@ -228,7 +229,7 @@ This bash script is very simple, here's my approach, I call it `run_xmacro`:
     (cd ~/; xmacroplay "$DISPLAY" < $1 > /dev/null 2>&1 &)
 
 To use this script, be sure you give it execution rights with: `chmod +x`, then
-you can make a mapping to call it, put this at your `.vimrc` or in the file
+you can make a mapping to call it, put this in your `.vimrc` or in the file
 where you put the mappings (I use `~/.vim/plugin/mappings.vim`);
 
     nmap <Tab>m :!run_xmacro ~/.xmacros/
