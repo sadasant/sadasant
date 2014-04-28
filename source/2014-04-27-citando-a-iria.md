@@ -12,7 +12,7 @@
 
 Mi buen amigo @[jobliz](https://twitter.com/jobliz) me ha compartido un
 fragmento de uno de sus escritos, en el cual, un personaje llamado Iria
-Ferrera se expresa de la siguiente manera:
+Ferreira se expresa de la siguiente manera:
 
 > La primera enseñanza que se le debería dar a una persona es que las buenas
 > intenciones no necesariamente te llevan a buenos resultados, ni tampoco a
@@ -21,7 +21,7 @@ Ferrera se expresa de la siguiente manera:
 > los que se obsesionan con querer salvarlo. Las buenas intenciones son un
 > peligro, un peligro hermoso y seductor en el que si te descuidas muchas veces
 > provoca refugiarte para nunca salir. Acaso puedes esperar benevolencia de
-> algunas personas cercanas a tí, pero no debes proyectar ese deseo al
+> algunas personas cercanas a ti, pero no debes proyectar ese deseo al
 > universo. No esperes de los demás una generosidad infinita igual a la que
 > supuestamente tú y los tuyos tienen, porque entonces tu alma se torcerá y te
 > alegrará negársela al que piensa distinto. Duele reconocerlo y es incómodo
