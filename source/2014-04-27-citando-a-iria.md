@@ -11,7 +11,7 @@
 --- 
 
 Mi buen amigo @[jobliz](https://twitter.com/jobliz) me ha compartido un
-fragmento de uno de sus escritos, en el cual, un personaje llamado Iria
+fragmento de uno de sus escritos, en el cual un personaje llamado Iria
 Ferreira se expresa de la siguiente manera:
 
 > La primera enseñanza que se le debería dar a una persona es que las buenas
@@ -30,7 +30,7 @@ Ferreira se expresa de la siguiente manera:
 > neutralizados a cualquier precio, para mantenerlos lejos del poder. Los
 > idealistas son los que más se corrompen con él, porque si tienen la
 > oportunidad hacen todo lo posible por transformar sus inmensos sueños en
-> planes absolutos para el destino de la humanidad. Por eso no espero de tí
+> planes absolutos para el destino de la humanidad. Por eso no espero de ti
 > buenas intenciones hacia mí, sólo que nuestros intereses sean compatibles en
 > algunos casos. En el resto estaré bien por mi cuenta, o junto a otras
 > personas que también piensen así.
