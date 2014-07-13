@@ -21,8 +21,8 @@ aviones de varios pisos y con caminos cerrados sin aviso; el sueño se dibujaba
 intencionalmente confuso y sus senderos me dirigían fácilmente a saltar entre
 barandas o colgar de algún borde, cualquier situación embarazosa.
 
-Esta vez, recordaba estar expuesto en el piso uno de un centro comercial,
-intentando ir al cine por un pasillo tan estrecho que debía atravesarlo
+Esta vez recordaba estar expuesto en el piso uno de un centro comercial,
+intentando llegar al cine por un pasillo tan estrecho que debía atravesarlo
 agachado, para que el vértigo no me tentase a saltar. Al lograr asomar mis ojos
 por el borde de la entrada, muy a mi decepción, estaba cerrado, por lo que
 debía regresar. Informé a los otros detrás de mi y ellos saltaron al piso de
