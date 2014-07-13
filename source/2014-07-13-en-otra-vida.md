@@ -36,8 +36,8 @@ sueño profundamente incómodo.
 Me hallaba en una fiesta techada bajo la luna. Entre la avalancha de sonidos
 típicos de aquella ocasión, ocurría el despreciable andar de personas
 desconocidas, desviviéndose. Ya me empezaba a saturar. Caminando entre
-habitaciones en búsqueda algún sitio tranquilo, me topé con tantas escenas que
-el impulso de salirme lograba mermarse. Fui por una bebida, y casi andando
+habitaciones en búsqueda de algún sitio tranquilo, me topé con tantas escenas
+que el impulso de salirme lograba mermarse. Fui por una bebida, y casi andando
 sobre cuerpos, llegué al bar. Me serví un trago. Al sorbo, presumí sentir
 alivio, pero sentí mareos y me desplomé sobre alguien.
 
