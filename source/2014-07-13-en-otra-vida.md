@@ -34,7 +34,7 @@ nacional, pasé a recorrer hacia atrás mis recuerdos matutinos y encontré un
 sueño profundamente incómodo.
 
 Me hallaba en una fiesta techada bajo la luna. Entre la avalancha de sonidos
-típicos de aquella ocasión, ocurría el despreciable andar de personas
+típicos de aquella ocasión ocurría el despreciable andar de personas
 desconocidas, desviviéndose. Ya me empezaba a saturar. Caminando entre
 habitaciones en búsqueda de algún sitio tranquilo, me topé con tantas escenas
 que el impulso de salirme lograba mermarse. Fui por una bebida, y casi andando
