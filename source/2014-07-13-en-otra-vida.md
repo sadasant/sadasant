@@ -61,7 +61,7 @@ A las semanas ya me había invitado a quedarme en su lugar.
 En aquel pueblo de grandes pilares, ella trabajaba en un edificio y yo
 encontraba trabajo por Internet desde su casa.
 
-Una tarde, en su casa, me sentí cansado y me acosté, no entendía qué pasaba, ¿fiebre?
+Una tarde, en su casa, me sentí cansado y me acosté; no entendía qué pasaba, ¿fiebre?
 Cerré mis ojos y al abrirlos, ya no estaba. No estaba en su mundo. Estaba en mi
 casa, vi la fecha y era el día después de esa fiesta terrible. De algún modo
 había logrado llegar a mi apartamento. Me agarré la cabeza con las manos y
@@ -94,7 +94,7 @@ detuve, sentía que me iba. Preferí la sombra, para no despertar sospechas. Cas
 sin consciencia, la vi asomarse, pero ya me había ido.
 
 Desperté en el carro de quien me había vendido la substancia. ¡Qué angustia!
-regresé acelerado, molesto. En aquel sueño de la fiesta, no existía ella,
+Regresé acelerado, molesto. En aquel sueño de la fiesta, no existía ella,
 sólo en aquella ciudad, ¿cómo era posible?, necesitaba más, necesitaba volver a
 verla, y encontrar algún modo de quedarme.
 
@@ -116,7 +116,6 @@ para escribirle y contarle mi historia.
     Te busqué, te dije que había ido a una montaña, regresamos, pasé navidad
     contigo  
     Un día, recordé que regresaría  
->   **Daniel Rodriguez**  
     Estaba en tu casa y tú en el trabajo, te fui a buscar, te explique, te
     molestaste, entre lágrimas te alejaste. Fui tras de ti y empecé a verme
     desaparecer, volteaste a buscarme y me conseguiste en el último instante, ya no
