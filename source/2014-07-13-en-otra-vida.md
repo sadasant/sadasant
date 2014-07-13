@@ -54,7 +54,7 @@ hicimos amigos.
 
 Coordinamos varios viajes, paseamos en un carro viejo que ella tenía. Conocí
 algunas montañas cercanas, calles comerciales y plazas. Era un pueblo
-pintoresco. Me recordaba a Mérida (pero con edificios más grandes).
+pintoresco. Me recordaba a Mérida, pero con edificios más grandes.
 
 A las semanas ya me había invitado a quedarme en su lugar.
 
