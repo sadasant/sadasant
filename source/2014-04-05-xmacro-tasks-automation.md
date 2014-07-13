@@ -250,3 +250,14 @@ If you need any help please ping me @[sadasant](https://twitter.com/sadasant).
 (Just request to follow, if I forget to accept, send me an email).
 
 _// I made the gifs with [tty2gif](https://github.com/z24/tty2gif)_
+
+---
+
+Update: I actually found a very nice way to do that example with less work,
+just add this to your vim configs:
+
+    nmap <Tab>bc  :call system('tmux new-window -F "#S" -c "'.expand('%:p:h').'"')<cr>
+
+And you'll be able to open a new tab in tmux with `<Tab>bc` :)
+
+More [here](https://github.com/sadasant/dotfiles/commit/44721f5522dcea006aa25228b8e8d1b0a9613faf).
