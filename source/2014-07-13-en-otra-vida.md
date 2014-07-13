@@ -45,7 +45,7 @@ Desperté en una calle. Caminé varias cuadras sin distinguir nada. Pregunté po
 algún sitio de comida y desayuné. Andaba sin celular y sin identificación. Pasé
 varias horas intentando ubicarme, sin resultados. Me preocupé, pero la
 situación imperaba acciones, por lo que procedí a encontrar estadía. Por
-fortuna, cargaba algo de dinero.
+fortuna cargaba algo de dinero.
 
 Varios días después, me encontré con una figura conocida: era mi novia, al
 menos era quien yo recordaba como mi novia, pero no me reconocía en lo
