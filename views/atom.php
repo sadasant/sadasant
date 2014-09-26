@@ -102,7 +102,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
       echo '<link rel="next" href="http://sadasant.com/atom?page='. ($page + 1) .'"/>';
     }
     ?>
-    <description>Conjeturas</description>
+    <description>Sadasant</description>
     <language>es-VE</language>
     <updated><?= $updated ?></updated>
     <sy:updatePeriod>weekly</sy:updatePeriod>
